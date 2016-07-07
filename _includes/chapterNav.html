@@ -1,0 +1,79 @@
+{% assign parts    = page.url | split: '/' %}
+{% assign desired_depth = parts | size | plus: 1  %}
+
+{% assign filename = parts | last %}
+{% if filename %}
+    {% assign base = page.url | remove: filename | remove: '//'  %}
+{% endif %}
+
+{% if sorted == blank %}
+    {% assign sorted = site.pages | sort: "path"  %}
+{% endif %}
+
+{% assign chain = "" | split:"|"  %}
+
+{% for node in sorted %}
+    {% if node.url contains base %}
+        {% assign node_depth = node.url | split: '/' | size %}
+        {% if node_depth <= desired_depth and node.url  %}
+            {% assign chain = chain | push: node %}
+        {% endif %}
+    {% endif %}
+{% endfor %}
+
+{% assign p = ""  %}
+{% assign n = ""  %}
+
+{% if chain.size > 1 %}
+    {% for link in chain %}
+        {% if page.url == link.url %}
+            {% if forloop.first == false %}
+                {% assign pindex = forloop.index0 | minus: 1 %}
+                {% assign p = chain[pindex] %}
+            {% endif %}
+
+            {% if forloop.last == false %}
+                {% assign nindex = forloop.index0 | plus: 1 %}
+                {% assign n = chain[nindex] %}
+            {% endif %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+<div class="container bot-nav-container">
+    <div class="row">
+        <div class="col-sm-12 col-md-4">
+            {% if p != blank %}
+            <a href="{{ site.github.url }}{{p.url}}" type="button"
+               class="btn pull-left bot-nav-button" data-toggle="tooltip" title="{{p.breadcrumb}}">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                {% if p.title.size > 20 %}
+                    {{ p.title | truncate: 17, '...' }}
+                {% else %}
+                    {{p.title}}
+                {% endif %}
+            </a>
+            {% endif %}
+        </div>
+        <div class="col-sm-12 col-md-4 text-center">
+            <a href="#" type="button"
+               class="btn bot-nav-button back-to-top" data-toggle="tooltip" title="Top">
+                <span class="glyphicon glyphicon-chevron-up"></span> Top
+            </a>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            {% if n != blank %}
+            <a href="{{ site.github.url }}{{n.url}}" type="button"
+               class="btn pull-right bot-nav-button" data-toggle="tooltip" title="{{n.breadcrumb}}">
+                {% if p.title.size > 20 %}
+                    {{ n.title | truncate: 17, '...' }}
+                {% else %}
+                    {{n.title}}
+                {% endif %}
+                 <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+            {% endif %}
+        </div>
+    </div>
+</div>

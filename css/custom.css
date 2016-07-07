@@ -1,0 +1,312 @@
+/*.vertical-center {*/
+  /*min-height: 100%;  !* Fallback for browsers do NOT support vh unit *!*/
+  /*min-height: 100vh; !* These two lines are counted as one :-)       *!*/
+
+  /*display: flex;*/
+  /*align-items: center;*/
+/*}*/
+/*.vertical-align {*/
+  /*display: flex;*/
+  /*flex-direction: row;*/
+/*}*/
+/*.vertical-align > [class^="col-"],*/
+/*.vertical-align > [class*=" col-"] {*/
+  /*display: flex;*/
+  /*align-items: center;     !* Align the flex-items vertically *!*/
+  /*justify-content: center; !* Optional, to align inner flex-items*/
+                              /*horizontally within the column  *!*/
+/*}*/
+
+/*.spacer5 { height: 5px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }*/
+/*.spacer10 { height: 10px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }*/
+/*.spacer15 { height: 15px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }*/
+/*.spacer20 { height: 20px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }*/
+/*.spacer25 { height: 25px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }*/
+/*.spacer30 { height: 30px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }*/
+/*.spacer35 { height: 35px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }*/
+/*.spacer40 { height: 40px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }*/
+/*.spacer45 { height: 45px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }*/
+/*.spacer50 { height: 50px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }*/
+/*.spacer100 { height: 100px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }*/
+/*.spacer200 { height: 200px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }*/
+
+/*.lhn {*/
+  /*padding: 8px 14px;*/
+  /*margin: 0;*/
+  /*font-size: 14px;*/
+  /*color: white;*/
+  /*background-color: black;*/
+/*}*/
+
+/*.breadcrumb {*/
+  /*padding: 8px 15px;*/
+  /*list-style: none;*/
+  /*background-color: #f5f5f5;*/
+  /*border-radius: 4px;*/
+/*}*/
+/*.breadcrumb > li {*/
+  /*display: inline-block;*/
+/*}*/
+/*.breadcrumb > li + li:before {*/
+  /*padding: 0 5px;*/
+  /*color: #ccc;*/
+  /*content: "/\00a0";*/
+/*}*/
+/*.breadcrumb > .active {*/
+  /*color: #777;*/
+/*}*/
+
+.toggle-btn{
+  position: fixed;
+}
+
+body {
+  padding-top: 50px;
+}
+
+.navbar-default {
+  background-color: black;
+  color: white;
+}
+
+.search-box {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 90%;
+  color: #344951;
+}
+
+.custom-glyphicon {
+  color: white;
+  font-size: 1.2em;
+}
+
+.left-round{
+  border-radius: 30px 0 0 30px;
+}
+
+.right-round{
+  border-radius: 0 30px 30px 0;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.breadcrumbs {
+  color: deepskyblue;
+  padding-left: 285px;
+  font-size: small;
+}
+
+.breadcrumb-list {
+  padding-left: 0px;
+  margin-bottom: 0px;
+  padding-top: 16px;
+}
+
+#breadcrumbs a {
+  color: white;
+  background: black;
+  size: tiny;
+  padding-top: 30px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+/*Tables*/
+table{
+  border:2px solid #000000;
+}
+
+th{
+  padding: 2px;
+  border:2px solid #000000;
+}
+
+td{
+  border:1px solid #000000;
+  padding: 5px;
+}
+
+.largeTable th{
+  padding: 3px;
+  border:2px solid #000000;
+  font-size: 13px;
+}
+
+.largeTable td{
+  border:1px solid #000000;
+  padding: 3px;
+  font-size: 11px;
+}
+
+div.bot-nav{
+  font-size: small;
+  display: none;
+  position: fixed;
+  z-index: 999;
+  bottom: 20px;
+  width: 46.5%;
+}
+
+div.bot-nav-container{
+  width:100%;
+}
+
+.bot-nav-button{
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+
+  color:whitesmoke;
+  background-color: rgba(77,96,103, .75);
+  font-size: smaller;
+}
+
+.bot-nav-button:active {
+  color: rgba(77,96,103, .75);
+  background-color:whitesmoke;
+}
+
+a.back-to-top {
+  background-color: rgba(148,159,163, .75);
+}
+
+a.back-to-top:active{
+  color:whitesmoke;
+  background-color: rgba(77,96,103, .75);
+}
+
+.image {
+  margin: 0 auto;
+  display: block;
+  border: 1px solid #021a40;
+  box-shadow: 5px 5px 5px #7C7C7C;
+  max-width: 100%;
+  height: auto;
+}
+
+.right{
+   float: right;
+}
+
+.left{
+  float: left;
+}
+
+.center{
+  display:  block;
+  margin: 0 auto;
+}
+
+h1:target,
+h2:target,
+h3:target,
+h4:target,
+h5:target,
+h6:target{
+  margin-top:-12px; padding-top:60px;
+}
+
+.input-group-xs>.form-control,
+.input-group-xs>.input-group-addon,
+.input-group-xs>.input-group-btn>.btn {
+  height: 22px;
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.btn-success{
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+
+  color:whitesmoke;
+  background-color: rgba(77,96,103, .75);
+  border-color: rgba(77,96,103, .75);
+  position: fixed;
+  z-index: 1;
+}
+
+.btn-success:hover{
+  background-color: rgba(77,96,103, .75);
+  border-color: rgba(77,96,103, .75);
+  color: #0f0f0f;
+}
+.btn-success:active{
+  background-color: rgba(77,96,103, .75) !important;
+  color: white;
+}
+
+.btn-success:focus{
+  background-color: rgba(77,96,103, .75);
+  color: white;
+}
+
+.btn-success:focus:hover{
+  background-color: rgba(77,96,103, .75);
+  border-color: rgba(77,96,103, .75);
+  color: #0f0f0f;
+}
+
+div.trail{
+
+  display: inline-block;
+  min-width: 170px;
+
+}
+
+.trail > a{
+
+  display: block;
+  margin: 5px auto;
+  min-width: 170px;
+
+}
+
+.trail > a > img{
+
+  margin: 5px auto;
+  display:block;
+  min-width: 170px;
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    position: fixed;
+    z-index: 1;
+}
+
+h1{
+  font-size: 32px;
+}
+
+h2{
+  font-size: 28px;
+}
+
+h3{
+  font-size: 25px;
+}
+
+h4{
+  font-size: 22px;
+}
+
+h5{
+  font-size: 19px;
+}
+
+Table.GitHubIcons{
+  border: 1px solid white !important;
+}
+
+Table.GitHubIcons td{
+  border: 1px solid white !important;
+  font-weight: bold;
+  text-align: center;
+}

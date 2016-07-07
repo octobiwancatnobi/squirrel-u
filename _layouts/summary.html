@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div class="container-fluid">
+  <div class="row">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <article class="post-content">
+      <h2 class="post-title">Chapters</h2>
+      {% include directory.html %}
+      {{ content }}
+      {% include chapterNav.html %}
+    </article>
+  </div>
+</div>

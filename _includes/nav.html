@@ -1,0 +1,65 @@
+<!--<div style="color:white">-->
+	<!--<span class="glyphicon glyphicon-home"></span>-->
+	<!--COURSES-->
+<!--</div>-->
+<!--<div>-->
+	<!--<ul>-->
+		<!--{% for module in site.data.nav %}-->
+		<!--{% if module.subcategories != null %}                &lt;!&ndash; check to see if the data file has a submenu, and if so display it &ndash;&gt;-->
+		<!--<li class="dropdown">-->
+			<!--<a href="{{ module.url }}" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">-->
+				<!--{{ module.title }}<i class="fa fa-angle-down"></i>-->
+			<!--</a>-->
+			<!--<ul class="dropdown-menu">-->
+				<!--{% for subcategory in module.subcategories %}-->
+				<!--<li><a href="{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>-->
+				<!--{% endfor %}-->
+			<!--</ul>-->
+			<!--{% else %}-->
+			<!--<!— display the top level navigation for items that don’t have a submenu &ndash;&gt;-->
+		<!--<li>-->
+			<!--<a href="{{ site.github.url }}{{ module.href }}">{{ module.title }}</a>-->
+		<!--</li>-->
+		<!--{% endif %}-->
+		<!--{% endfor %}-->
+	<!--</ul>-->
+<!--</div>-->
+
+
+<!--Temporary for GitHub Training-->
+
+<div style="color:white">
+	<span class="glyphicon glyphicon-book"></span>
+	COURSES
+</div>
+
+<div id="navlist">
+	<ul>
+		<li><a href="{{ site.github.url }}/3_Development/1_Setup/" style="color: white">Setting Up Your CUBE Environment</a></li>
+			<ul>
+				<li><a href="{{ site.github.url }}/3_Development/1_Setup/1_Access/" style="color: white">Access Requests</a></li>
+				<li><a href="{{ site.github.url }}/3_Development/1_Setup/2_softwareInstall/" style="color: white">Software Installs</a></li>
+				<li><a href="{{ site.github.url }}/3_Development/1_Setup/3_projectSetup/" style="color: white">Project Setup</a></li>
+				<li><a href="{{ site.github.url }}/3_Development/1_Setup/4_DatabaseSetup/" style="color: white">Database Setup</a></li>
+				<li><a href="{{ site.github.url }}/3_Development/1_Setup/5_Running/" style="color: white">Running</a></li>
+			</ul>
+	</ul>
+	<ul>
+		<li><a href="{{ site.github.url }}/3_Development/2_VersionControlSystem/" style="color: white">Version Control System</a></li>
+			<ul>
+				<li><a href="{{ site.github.url }}/3_Development/2_VersionControlSystem/1_introToGitAndGitHub/" style="color: white">Introduction to Git and GitHub</a></li>
+				<li><a href="{{ site.github.url }}/3_Development/2_VersionControlSystem/2_basicConcepts/" style="color: white">Git and GitHub Concepts</a></li>
+				<ul>
+					<li><a href="{{ site.github.url }}/3_Development/2_VersionControlSystem/2_basicConcepts/1_distributedModel/" style="color: white">The Distributed Model</a></li>
+					<li><a href="{{ site.github.url }}/3_Development/2_VersionControlSystem/2_basicConcepts/2_gaigWorkflowSummary/" style="color: white">GitHub Workflow Summary</a></li>
+					<li><a href="{{ site.github.url }}/3_Development/2_VersionControlSystem/2_basicConcepts/3_fetchMergePull/" style="color: white">Fetch, Merge and Pull</a></li>
+					<li><a href="{{ site.github.url }}/3_Development/2_VersionControlSystem/2_basicConcepts/4_CodeCommitPush/" style="color: white">Code, Commit and Push</a></li>
+					<li><a href="{{ site.github.url }}/3_Development/2_VersionControlSystem/2_basicConcepts/5_PullRequestReview/" style="color: white">Pull Request and Review</a></li>
+					<li><a href="{{ site.github.url }}/3_Development/2_VersionControlSystem/2_basicConcepts/6_ApproveMerge/" style="color: white">Resolving Pull Requests</a></li>
+
+				</ul>
+				<li><a href="{{ site.github.url }}/3_Development/2_VersionControlSystem/4_gitCLI/" style="color: white">Git Command Line Interface</a></li>
+				<li><a href="{{ site.github.url }}/3_Development/2_VersionControlSystem/5_gitTools/" style="color: white">Git Tools</a></li>
+			</ul>
+	</ul>
+</div>

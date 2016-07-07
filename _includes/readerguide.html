@@ -1,0 +1,38 @@
+{% comment %}
+rough reading time calculation - using a technical rate of 100 wpm
+(not non-technical reading rate of average of 275 wpm avg)
+{% endcomment %}
+
+{% capture minutes_to_read %}
+    {{ page.content | number_of_words | divided_by: 100 }}
+{% endcapture %}
+
+<div style="..." class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6"></div>
+
+        <div class="col-sm-6, pull-right">
+            {% if site.github.owner_name != blank and site.github.owner_name !="BUE" %}
+                <a href="https://github.gaig.com/{{ site.github.owner_name }}/CubeU/edit/gh-pages/{{ site.branch }}/{{ page.path }}" type="button"
+                   class="btn btn-primary" data-toggle="tooltip" title="Go directly to GitHub to edit this content">
+                    <span class="glyphicon glyphicon-pencil"></span>
+                </a>
+            {% endif %}
+        </div>
+
+<br><br><br>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <span class="glyphicon glyphicon-time"></span> {{minutes_to_read | ceil}} min read
+        </div>
+
+        <div class="col-sm-5, pull-right">
+            {% if page.status contains "underConstruction" %}
+            <span class="glyphicon glyphicon-alert" style="color: orange"></span>
+            {% endif %}
+        </div>
+    </div>
+
+    </div>
+</div>

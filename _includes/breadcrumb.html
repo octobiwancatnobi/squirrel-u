@@ -1,0 +1,22 @@
+<div class="breadcrumbs">
+    <ul id="breadcrumbs" class="breadcrumb-list">
+        <a href="{{ site.github.url }}/"><span class="glyphicon glyphicon-home"></span></a>
+        {% assign parts = page.url | split: '/' %}
+        {% capture depth %}{{ parts.size | minus:1 }}{% endcapture %}
+        {% assign prefix = "" %}
+        {% for i in (1..depth) %}
+            {% capture working_url %}{{prefix}}/{{ parts[i] }}/{% endcapture %}
+            {% capture prefix %}{{prefix}}/{{ parts[i] }}{% endcapture %}
+            {% if i == depth %} class="active" {% endif %}>
+
+            {% if forloop.last %}
+                {% assign summary = "" %}
+            {% else %}
+                {% assign summary = "0_Summary/" %}
+            {% endif %}
+
+            <a class="breadcrumb" href="{{ site.github.url }}{{working_url}}{{summary}}">
+                {{parts[i]}}</a>
+        {% endfor %}
+    </ul>
+</div>

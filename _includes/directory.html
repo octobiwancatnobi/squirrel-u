@@ -1,0 +1,30 @@
+{% assign selected_depth = page.url | split: '/' | size   %}
+{% assign summary_depth = selected_depth | plus: 1 %}
+
+{% if sorted == blank %}
+    {% assign sorted = site.pages | sort: "path"  %}
+{% endif %}
+
+{% assign base = page.url | remove: "0_Summary" | remove: '//' %}
+{% assign tripwire = "" %}
+
+<ul>
+{% for node in sorted %}
+    {% if node.url contains base %}
+        {% assign parts = node.url | split: '/' %}
+        {% assign node_depth = parts | size %}
+        {% assign filename = parts | last %}
+        {% if node_depth == selected_depth and filename != '0_Summary' %}
+            <li><a href="{{ site.github.url }}{{node.url}}">{{node.title}}</a></li>
+        {% endif %}
+        {% if node_depth == summary_depth and filename == '0_Summary' %}
+            <li><a href="{{ site.github.url }}{{node.url}}">{{node.title}}</a> </li>
+        {% endif %}
+        {% assign tripwire = "tripped" %}
+    {% else %}
+        {% if tripwire == "tripped" %}
+            {% break %}
+        {% endif %}
+    {% endif %}
+{% endfor %}
+</ul>

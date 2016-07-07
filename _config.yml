@@ -1,0 +1,34 @@
+# Site settings
+title: Squirrel University
+email: jimdkohl@icloud.com
+description: > # this means to ignore newlines until "baseurl:"
+ SU
+
+# include: ['.htaccess']
+
+# Build settings
+highlighter: rouge
+markdown: kramdown
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+
+kramdown:
+  input:          GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+  line_numbers: true
+
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+  enable_coderay: true
+  coderay:
+    coderay_wrap:              div
+    coderay_line_numbers:      inline
+    coderay_line_number_start: 1
+    coderay_tab_width:         4
+    coderay_bold_every:        10
+    coderay_css:               style
+
+gems:
+  - jemoji
+
+permalink:   pretty
+keep_files: [/js, /js/lunr.min.js, /javascripts, _site/search_data.json, search_data.json, Gemfile, Gemfile.lock]
