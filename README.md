@@ -1,8 +1,8 @@
-# acorn-tree
+# squirrel-u
 
 ![](images/tree.jpeg)
 
-This project is the home for all **acorn-tree** contributions.  
+This project is the home for all **squirrel-u** contributions.  
 
 ## What is acorn-tree?
 
