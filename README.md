@@ -4,11 +4,11 @@
 
 This project is the home for all **squirrel-u** contributions.  
 
-## What is acorn-tree?
+## What is squirrel-u?
 
-acorn-tree is a starter kit for growing your own learning tree within your company. 
+squirrel-u is a starter kit for growing your own learning tree within your company. 
 
-## Why acorn-tree?
+## Why squirrel-u?
 
 Acorns feed Squirrels but if buried and forgotten, Acorns become Oak trees, which beget more Acorns.
 
@@ -28,7 +28,7 @@ As organizations grow, this unique information evolves and becomes tribal knowle
 Tribes repeatedly share via word of mouth and email.  At some tipping point, conscientious people put these bits into Powerpoint or Word documents and load into Sharepoint or Jive.  
 Sadly from that point these documents become hard to find and are rarely maintained.
 
-**acorn-tree** is a packaged framework for helping teams transform tribal knowledge into learning trees. It is based on GitHub Pages and Markdown.  It utilizes a collaborative workflow to build documentation and delivers a consolidated information view and search capability.  
+**squirrel-u** is a packaged framework for helping teams transform tribal knowledge into learning trees. It is based on GitHub Pages and Markdown.  It utilizes a collaborative workflow to build documentation and delivers a consolidated information view and search capability.  
 
 GitHub Pages does a beautiful job of rendering Markdown content into html and serving it from your Repository site.
 
@@ -41,14 +41,14 @@ This package comes with Setup, Framework and Sample Content:
 
 ## Getting Started
 
-1. Fork a copy of the **acorn-tree** repository to your public GitHub Account: 
-   https://github.com/jimkohl/acorn-tree.git
+1. Fork a copy of the **squirrel-u** repository to your public GitHub Account: 
+   https://github.com/zippyzsquirrel/squirrel-u.git
 
 2. Select the **gh-pages** branch instead of master.  
 
 3. Read and experiment with repository content directly in your GitHub fork.
 
-4. View your content at:  http://yourname.github.io/acorn-tree/
+4. View your content at:  http://zippyzsquirrel.github.io/squirrel-u/
 
 ## Advanced:  IDE with Local Jekyll Server
 
@@ -79,9 +79,9 @@ Once you've got the hang of things, you may want to create and maintain content 
 3. Create a new IntelliJ project from Version Control 
    File -> New -> Project From Version Control -> GitHub  
    
-     * Git Repository URL:  **https://github.com/yourFork/acorn-tree.git**
+     * Git Repository URL:  **https://github.com/yourFork/squirrel-u.git**
      * Parent Directory:    /Users/**userName**/IdeaProjects/   or   C:\Users\**userName**\IdeaProjects\
-     * Project Name:        **acorn-tree**  
+     * Project Name:        **squirrel-u**  
 
 4. Run the appropriate Build Jekyll configuration ( **Build Jekyll - Mac** or **Build Jekyll – Windows** )
     * For Windows this expects that Git was installed to C:\Development\Git, if 
@@ -112,18 +112,18 @@ Once you've got the hang of things, you may want to create and maintain content 
 
     ```
                     done in 67.513 seconds.
- Auto-regeneration: enabled for 'C:/git/acorn-tree'
-Configuration file: C:/git/acorn-tree/_config.yml
+ Auto-regeneration: enabled for 'C:/git/squirrel-u'
+Configuration file: C:/git/squirrel-u/_config.yml
     Server address: http://127.0.0.1:4000
   Server running... press ctrl-c to stop.
     ```
 
-6. You can now go to http://127.0.0.1:4000 and see your acorn-tree running locally! 
+6. You can now go to http://127.0.0.1:4000 and see your squirrel-u running locally! 
 
 7. Ensure that your origin's push remotes is setup correctly:
 
 ```shell
-git remote set-url --push origin https://yourUserName@github.com/yourUserName/acorn-tree.git
+git remote set-url --push origin https://yourUserName@github.com/yourUserName/squirrel-u.git
  ```
  
 ## Contributors
