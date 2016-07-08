@@ -1,6 +1,7 @@
 {% include toc.html %}
 
 ## Introduction
+Your introduction should contain important context related to your topic.
 
 ## Prerequisites
 
