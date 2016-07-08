@@ -110,7 +110,7 @@ Basepath is automatically provided from the host environment:
 2. Local Jekyll:   ```localhost:4000/```
 
 ### Images
- 
+
 Include images in your file using the following syntax, where the path in 
 parentheses ( ) is the relative location of the image.
 
