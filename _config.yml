@@ -4,8 +4,8 @@ email: jimdkohl@icloud.com
 description: > # this means to ignore newlines until "baseurl:"
  SU
 
-# supposed to force repository name to be included in the url
-baseurl: /project-name
+# force repository name to be included in the url
+baseurl: /squirrel-u
 
 # include: ['.htaccess']
 
