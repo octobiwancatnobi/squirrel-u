@@ -4,6 +4,8 @@ email: jimdkohl@icloud.com
 description: > # this means to ignore newlines until "baseurl:"
  SU
 
+baseurl: /project-name
+
 # include: ['.htaccess']
 
 # Build settings
