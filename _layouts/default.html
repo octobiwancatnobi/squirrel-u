@@ -11,14 +11,14 @@ layout: compress
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>CUBE University</title>
+    <title>Squirrel University</title>
 
-    {% if site.github.owner_name == blank %}
-        <link rel="shortcut icon" href="{{ site.github.url }}/images/cubeuLocal.ico"/>
-    {% elsif site.github.owner_name == "BUE" %}
-        <link rel="shortcut icon" href="{{ site.github.url }}/images/cubeuBUE.ico"/>
-    {% else %}
-        <link rel="shortcut icon" href="{{ site.github.url }}/images/cubeuUser.ico"/>
+    {% if site.github.owner_name == blank %}                  <!-- LOCAL -->
+        <link rel="shortcut icon" href="{{ site.github.url }}/images/SquirrelURed.bmp"/>
+    {% elsif site.github.owner_name == "zippyzsquirrel" %}    <!-- BASE -->
+        <link rel="shortcut icon" href="{{ site.github.url }}/images/SquirrelUBlue.bmp"/>
+    {% else %}                                                <!-- FORKED -->
+        <link rel="shortcut icon" href="{{ site.github.url }}/images/SquirrelUYellow.bmp"/>
     {% endif %}
 
     <!-- Bootstrap Core CSS -->
