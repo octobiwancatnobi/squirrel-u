@@ -4,4 +4,4 @@ bundle update
 echo "Starting Jekyll, this may take several minutes ..."
 jekyll clean
 rake
-jekyll serve --destination _site --incremental --profile --baseurl
+jekyll serve --destination _site --incremental --profile

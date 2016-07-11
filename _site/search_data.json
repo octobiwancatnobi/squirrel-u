@@ -106,7 +106,7 @@
   "author": "",
   "tags": "",
   "category": "",
-  "excerpt": "TOPICS content Summary 1_Orientation Summary Purpose Approach Navigation Personas 2_Architecture Summary Components Markdown Overview Liquid Overview Front Matter Overview Content..."
+  "excerpt": "TOPICS content Summary 1_Orientation Summary Purpose Approach Navigation Personas 2_Architecture Summary Components Markdown Overview 2_Markdown Markdown Overview Liquid Overview Front..."
 }
 ,
 
@@ -170,6 +170,16 @@
 }
 ,
 
+  "": {
+  "title": "",
+  "url":   "/",
+  "author": "",
+  "tags": "Welcome, CUBE University",
+  "category": "",
+  "excerpt": "\n    \n    \n        \n    \n    \n\n\n\nHere you can learn everything you need to know about CUBE.\n    Right from your own CUBE.\n\n\n\n\n\n\n\n    \n        \n\n\n\n\t\n\t\t\n\n\n\n\t\n\t\t\n\n\n\n\t\n\t\t\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n"
+}
+,
+
   "content-2-architecture-2-markdown": {
   "title": "Markdown Overview",
   "url":   "/content/2_Architecture/2_Markdown/",
@@ -210,16 +220,6 @@
 }
 ,
 
-  "": {
-  "title": "",
-  "url":   "/",
-  "author": "",
-  "tags": "Welcome, CUBE University",
-  "category": "",
-  "excerpt": "\n    \n    \n        \n    \n    \n\n\n\nHere you can learn everything you need to know about CUBE.\n    Right from your own CUBE.\n\n\n\n\n\n\n\n    \n        \n\n\n\n\t\n\t\t\n\n\n\n\t\n\t\t\n\n\n\n\t\n\t\t\n\n\n\n\t\n\t\t\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n"
-}
-,
-
   "content-2-architecture-1-components": {
   "title": "Cube U&#39;s Development Stack Components",
   "url":   "/content/2_Architecture/1_Components/",
@@ -237,6 +237,16 @@
   "tags": "",
   "category": "",
   "excerpt": "body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding:..."
+}
+,
+
+  "content-2-architecture-2-markdown-sample": {
+  "title": "Markdown Overview",
+  "url":   "/content/2_Architecture/2_Markdown/sample/",
+  "author": "",
+  "tags": "Code, Syntax Highlighting, Markdown, Rouge, emoji",
+  "category": "",
+  "excerpt": "Contents Introduction Prerequisites Emphasis Links Images Structuring Content Headers Header 1 Lists Tables Code Syntax Highlighting Introduction Prerequisites None Emphasis..."
 }
 ,
 
