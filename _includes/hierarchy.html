@@ -65,7 +65,7 @@
 
 <li>
 
-    <a href="{{ site.baseurl }}{{ node.url }}">
+    <a href="{{ site.github.url }}{{ node.url }}">
                         <span class="glyphicon glyphicon-triangle-right Collapsable">
                         {{ ancestor }}
                          </span>
@@ -84,7 +84,7 @@
 
 
         <li style="list-style-type: disc;">
-            <span><a href="{{ site.baseurl }}{{ node.url }}">
+            <span><a href="{{ site.github.url }}{{ node.url }}">
                 <span class="{{construction}}"></span> {{ node.breadcrumb }}</a></span>
             {% endfor %}
             {% endif %}

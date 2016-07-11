@@ -4,7 +4,9 @@ email: jimdkohl@icloud.com
 description: SU
 
 # force repository name to be included in the url
-baseurl: /squirrel-u
+#baseurl: /squirrel-u
+
+#site.github.url: /squirrel-u
 
 # include: ['.htaccess']
 
