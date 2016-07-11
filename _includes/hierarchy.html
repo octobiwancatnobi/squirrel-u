@@ -1,3 +1,7 @@
+---
+layout: null
+permalink: hierarchy-template.html
+---
 
 <div>
     <p>TOPICS
@@ -80,8 +84,6 @@
         {% if node.status == 'underConstruction' %}
         {% assign construction = "glyphicon glyphicon-alert underConstruction" %}
         {% endif %}
-
-
 
         <li style="list-style-type: disc;">
             <span><a href="{{ site.github.url }}{{ node.url }}">
