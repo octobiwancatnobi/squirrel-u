@@ -1,7 +1,8 @@
 # Site settings
 title: Squirrel University
 email: jimdkohl@icloud.com
-description: SU
+description: > # this means to ignore newlines until "baseurl:"
+ SU
 
 # force repository name to be included in the url
 #baseurl: /squirrel-u
