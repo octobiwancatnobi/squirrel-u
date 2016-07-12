@@ -79,7 +79,6 @@
 
             <script type="text/javascript">
                 $(".Collapsable").click(function () {
-
                 });
                 $("#lhn-collapse").click(function () {
                     var collapsed = true;
@@ -89,20 +88,16 @@
                     $("#lhn-collapse .glyphicon").toggleClass("glyphicon-chevron-down",this.collapsed);
                     $("#lhn-collapse .glyphicon").toggleClass("glyphicon-chevron-up",!this.collapsed);
 
-                    expandCollapseAll('content',       this.collapsed);
+                    expandCollapseAll('1_SquirrelU',       this.collapsed);
 
                 });
             </script>
 
             <script type="text/javascript">
                 window.onload = function () {
-
-                    compactMenu('content',           true,'');
-
-                    selfLink('content','highlightSelected',false);
+                    compactMenu('1_SquirrelU',           false,'');
+                    selfLink('1_SquirrelU','highlightSelected',false);
                 };
-
                 window.onunload = function () {
-
                 };
             </script>
