@@ -1,3 +1,4 @@
+/* Old Color Palette */
 $deepskyblue: deepskyblue;
 $gold:        #EED202;
 $grey:        #999999;
@@ -7,20 +8,27 @@ $black:       #000;
 $white20:     rgba(255,255,255,0.2);
 $white:       white;
 
+/* Summer Forest Color Palette */
+$summertan:   #f0f0dd;
+$summergold:  #d8a648;
+$summergreen: #5c9038;
+$summersky:   #19b2b2;
+$summerbrown: #1f4901;
+
 /* Semantic Colors */
-$headerBack:     $black;
-$headerColor:    $white;
+$headerBack:     $summersky;
+$headerColor:    $summerbrown;
 
-$panelBack:      $deepskyblue;      // $black;
-$panelColor:     $black;            // $gold;
-$panelHighlight: $white;
+$panelBack:      $summerbrown;
+$panelColor:     $summertan;
+$panelHighlight: $summergold;
 
-$contentBack:    $white;
-$contentColor:   $black;
+$contentBack:    $summertan;
+$contentColor:   $summerbrown;
 
-$buttonBack:     $white;
-$buttonColor:    $panelBack;
-$buttonHover:    darkblue;
+$buttonBack:     $summergold;
+$buttonColor:    $summerbrown;
+$buttonHover:    $summergold;
 
 $tableBack:      $black;
 $tableColor:     $white;

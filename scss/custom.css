@@ -1,3 +1,5 @@
+/* Old Color Palette */
+/* Summer Forest Color Palette */
 /* Semantic Colors */
 /* Panels */
 #nav-sidebar-wrapper {
@@ -7,7 +9,7 @@
   height: 100%;
   margin-left: -300px;
   overflow-y: auto;
-  background: deepskyblue;
+  background: #1f4901;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -59,14 +61,14 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  color: #000; }
+  color: #f0f0dd; }
   .sidebar-nav .collapseToggle {
     text-decoration: none;
-    color: #000;
-    background: deepskyblue;
+    color: #f0f0dd;
+    background: #1f4901;
     font-size: 14px; }
   .sidebar-nav .Collapsable {
-    color: #000;
+    color: #f0f0dd;
     font-size: small;
     #text-indent: 5px;
     text-decoration: none;
@@ -79,7 +81,7 @@
       font-weight: 100;
       line-height: 1;
       -webkit-font-smoothing: antialiased;
-      color: #000; }
+      color: #f0f0dd; }
   .sidebar-nav li a {
     font-size: small;
     display: block;
@@ -116,7 +118,7 @@ body {
   margin-top: 10px;
   margin-left: 10px;
   width: 90%;
-  color: #000; }
+  color: #1f4901; }
 
 .custom-glyphicon {
   color: white;
@@ -130,14 +132,14 @@ body {
 
 ul#search_results {
   list-style-type: disc;
-  color: #000; }
+  color: #f0f0dd; }
 
 #search_results li a {
   display: block;
   text-decoration: none;
   font-size: small;
   line-height: 20px;
-  color: #000; }
+  color: #f0f0dd; }
 
 .search {
   right: 300px;
@@ -145,13 +147,13 @@ ul#search_results {
 
 /* "Breadcrumb" Trail */
 .navbar-default {
-  background-color: #000;
-  color: white; }
+  background-color: #1f4901;
+  color: #f0f0dd; }
   .navbar-default .navbar-brand {
-    color: white; }
+    color: #f0f0dd; }
 
 .breadcrumbs {
-  color: deepskyblue;
+  color: #d8a648;
   padding-left: 285px;
   font-size: small; }
 
@@ -161,8 +163,8 @@ ul#search_results {
   padding-top: 16px; }
 
 #breadcrumbs a {
-  color: white;
-  background: #000;
+  color: #f0f0dd;
+  background: #1f4901;
   font-size: smaller;
   padding-top: 30px;
   padding-left: 3px;
@@ -187,18 +189,18 @@ div.bot-nav-container {
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
-  color: deepskyblue;
-  background-color: white;
+  color: #1f4901;
+  background-color: #d8a648;
   font-size: smaller; }
   .bot-nav-button:active {
-    color: white;
+    color: #d8a648;
     background-color: white; }
 
 a.back-to-top {
-  background-color: white; }
+  background-color: #d8a648; }
   a.back-to-top:active {
-    color: deepskyblue;
-    background-color: white; }
+    color: #1f4901;
+    background-color: #d8a648; }
 
 .nextprev {
   display: none;
@@ -210,7 +212,7 @@ a.back-to-top {
   -moz-border-radius: 30px;
   border-radius: 30px;
   margin-right: 310px;
-  background-color: white; }
+  background-color: #d8a648; }
 
 /* Content Formatting */
 .image {
@@ -259,26 +261,26 @@ h1:target, h2:target, h3:target, h4:target, h5:target, h6:target {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  color: deepskyblue;
-  background-color: white;
+  color: #1f4901;
+  background-color: #d8a648;
   border-color: white;
   position: fixed;
   z-index: 1; }
   .btn-primary:hover {
-    background-color: white;
+    background-color: #d8a648;
     border-color: white;
-    color: darkblue; }
+    color: #d8a648; }
   .btn-primary:active {
-    background-color: white !important;
+    background-color: #d8a648 !important;
     color: #000; }
   .btn-primary:focus {
-    background-color: white;
+    background-color: #d8a648;
     border-color: white;
-    color: deepskyblue; }
+    color: #1f4901; }
     .btn-primary:focus:hover {
-      background-color: white;
+      background-color: #d8a648;
       border-color: white;
-      color: darkblue; }
+      color: #d8a648; }
 
 /*Tables*/
 table {

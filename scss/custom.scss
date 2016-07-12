@@ -207,16 +207,16 @@ ul#search_results  {
 /* "Breadcrumb" Trail */
 
 .navbar-default {
-  background-color: $black;
-  color: $white;
+  background-color: $panelBack;
+  color:  $panelColor;
 
   .navbar-brand {
-    color: $white;
+    color: $panelColor;
   }
 }
 
 .breadcrumbs {
-  color: $deepskyblue;
+  color: $panelHighlight;
   padding-left: 285px;
   font-size: small;
 }
@@ -228,8 +228,8 @@ ul#search_results  {
 }
 
 #breadcrumbs a {
-  color: $white;
-  background: $black;
+  color:      $panelColor;
+  background: $panelBack;
   font-size: smaller;
   padding-top: 30px;
   padding-left: 3px;
