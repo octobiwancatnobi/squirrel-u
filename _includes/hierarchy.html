@@ -14,7 +14,6 @@
 {% assign sorted = site.pages  | sort: "path"  %}
 
 {% for node in sorted %}
-
 {% if node.url contains '404.md' %}
 {% continue %}
 {% endif %}
@@ -62,15 +61,7 @@
 
 {% assign ancestors = ancestors | push: ancestor %}
 
-<li>
-
-    <a href="{{ site.github.url }}{{ node.url }}">
-                        <span class="glyphicon glyphicon-triangle-right Collapsable">
-                        {{ ancestor }}
-                         </span>
-    </a>
-
-
+<li><span class="glyphicon glyphicon-triangle-right Collapsable"> {{ ancestor }}</span>
     <ul style="list-style-type: none;" id="{{ ancestor }}">
         {% endif %}
 
@@ -88,7 +79,7 @@
 
             <script type="text/javascript">
                 $(".Collapsable").click(function () {
-                    console.log("tagged")
+
                 });
                 $("#lhn-collapse").click(function () {
                     var collapsed = true;
@@ -98,13 +89,16 @@
                     $("#lhn-collapse .glyphicon").toggleClass("glyphicon-chevron-down",this.collapsed);
                     $("#lhn-collapse .glyphicon").toggleClass("glyphicon-chevron-up",!this.collapsed);
 
-                    expandCollapseAll('content',           this.collapsed);
+                    expandCollapseAll('content',       this.collapsed);
+
                 });
             </script>
 
             <script type="text/javascript">
                 window.onload = function () {
-                    compactMenu('content',           false,'');
+
+                    compactMenu('content',           true,'');
+
                     selfLink('content','highlightSelected',false);
                 };
 
