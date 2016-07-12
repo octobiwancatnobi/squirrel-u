@@ -4,7 +4,7 @@
     <option name="INTERPRETER_PATH" value="C:\Development\Git\git-bash.exe" />
     <option name="WORKING_DIRECTORY" value="" />
     <option name="PARENT_ENVS" value="true" />
-    <option name="SCRIPT_NAME" value="scripts/runJekyll.sh" />
+    <option name="SCRIPT_NAME" value="setup/scripts/runJekyll.sh" />
     <option name="PARAMETERS" value="" />
     <module name="" />
     <envs />

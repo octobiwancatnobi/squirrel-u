@@ -1,0 +1,48 @@
+/*
+Error: Invalid CSS after "@charset "utf-8"": expected "{", was ";"
+        on line 5 of main.scss
+
+1: ---
+2: # Only the main Sass file needs front matter (the dashes are enough)
+3: ---
+4: 
+5: @charset "utf-8";
+6: 
+7: $base-font-family: Helvetica, Arial, sans-serif;
+8: $base-font-size:   16px;
+9: $small-font-size:  $base-font-size * 0.875;
+10: $base-line-height: 1.5;
+
+Backtrace:
+main.scss:5
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:1120:in `tok!'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:656:in `block'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:649:in `ruleset'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:665:in `block_contents'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:125:in `stylesheet'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:41:in `parse'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/bin/scss:13:in `<top (required)>'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/bin/scss:23:in `load'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/bin/scss:23:in `<main>'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/jkohl2/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"@charset \"utf-8\"\": expected \"{\", was \";\"\A         on line 5 of main.scss\A \A 1: ---\A 2: # Only the main Sass file needs front matter (the dashes are enough)\A 3: ---\A 4: \A 5: @charset \"utf-8\";\A 6: \A 7: $base-font-family: Helvetica, Arial, sans-serif;\A 8: $base-font-size:   16px;\A 9: $small-font-size:  $base-font-size * 0.875;\A 10: $base-line-height: 1.5;"; }

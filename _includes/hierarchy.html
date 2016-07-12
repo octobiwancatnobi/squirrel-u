@@ -14,6 +14,10 @@
 {% assign sorted = site.pages  | sort: "path"  %}
 
 {% for node in sorted %}
+{% if node.url contains 'scss' %}
+{% continue %}
+{% endif %}
+
 {% if node.url contains '404.md' %}
 {% continue %}
 {% endif %}

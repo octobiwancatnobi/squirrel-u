@@ -1,5 +1,5 @@
 (function() {
-    jQuery(function() {
+    jQuery(function(cubeuApp) {
         // Initalize lunr search fields. Fields with boost matches are more important.
         window.idx = lunr(function () {
             this.field('id');
@@ -50,11 +50,13 @@
         function display_search_results(results) {
             var $search_results = $("#search_results");
             $search_results.empty();
+
             window.data.then(function(loaded_data) {           // Wait for data to load
                 if (results.length) {
                     results.forEach(function(result) {
                         var item = loaded_data[result.ref];
                         var appendString = '<li><a class="search" href="' + baseUrl + item.url + '">' + item.title + '</a></li>';
+
                         $search_results.append(appendString);
                     });
                 } else {
