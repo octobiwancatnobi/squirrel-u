@@ -1,8 +1,8 @@
 ---
 layout:         page
-title:          "Create or Update Cube U Content"
+title:          "Create or Update Squirrel U Content"
 breadcrumb:     "Create or Update Content"
-author:         Mosser
+author:         Zippy
 status:
 category:
 contenttype:
@@ -17,20 +17,20 @@ This section will give you a quick overview of how to create or update content d
 
 ## Prerequisites
 
-* You'll need access to the "BUE" organization in GitHub.  Take a look at the Prerequisites on the **Get Started Contributing to Cube U**
+* You'll need access to the "BUE" organization in GitHub.  Take a look at the Prerequisites on the **Get Started Contributing to  Squirrel U**
 page for assistance with this.
-* **If you're creating *new* content**, you'll want to copy the content on the **Cube U Content Template** page to your clipboard.
+* **If you're creating *new* content**, you'll want to copy the content on the ** Squirrel U Content Template** page to your clipboard.
 * Before making updates, just make sure that you are within your personal repository (not the "BUE" repo) and that your branch is
-**gh-pages**.  After you have logged into GitHub, this is as simple as adding "/yourUsername/CubeU" to your URL (i.e. https://github.gaig.com/mmosser/CubeU).
+**gh-pages**.  After you have logged into GitHub, this is as simple as adding "/yourUsername/ SquirrelU" to your URL (i.e. https://github.gaig.com/mmosser/ SquirrelU).
 
 ![](../images/YourPersonalRepo.png){: .image}
 
 ## Update Existing Content
 
-1. Remember that the Cube U repository is just a file system like any other. To update existing content, simply navigate to
+1. Remember that the  Squirrel U repository is just a file system like any other. To update existing content, simply navigate to
 the file containing the content that you would like to update.
 
-    In the example below, we've navigated to the "GitHub Workflow Summary" page of Cube U.
+    In the example below, we've navigated to the "GitHub Workflow Summary" page of  Squirrel U.
 
     Click the **Edit** icon (looks like a pencil) to change your view to edit mode.
 
@@ -45,13 +45,13 @@ the file containing the content that you would like to update.
 
 ## Create New Content
 
-**STOP!** Before you create new content, ask yourself, "Does this content already exist?" One of the main objectives of Cube U
+**STOP!** Before you create new content, ask yourself, "Does this content already exist?" One of the main objectives of  Squirrel U
 is to create a single source of truth for the knowledge contained within.  Make sure you have done your research in determining
-if there is already content in Cube U related to the material you would like to add. It may be possible that all you need to do is
+if there is already content in  Squirrel U related to the material you would like to add. It may be possible that all you need to do is
 edit or enhance a document that is already out there. Ask your team mates, subject matter experts and/or the DevOps team if you think
-that your content may already exist somewhere in Cube U.
+that your content may already exist somewhere in  Squirrel U.
 
-1. Remember that the Cube U repository is just a file system like any other. To create new content, simply navigate to
+1. Remember that the  Squirrel U repository is just a file system like any other. To create new content, simply navigate to
 the location where you would like to create or upload a file or create a directory.
 
     **To create a new file**
@@ -94,12 +94,12 @@ can also trash your changes by clicking **Cancel** if you'd like.
 
 ## Test Your Rendered Content
 
-Before you're ready to request approval on your changes, you'll want to see how they will look in Cube U. *Always* test your changes
+Before you're ready to request approval on your changes, you'll want to see how they will look in  Squirrel U. *Always* test your changes
 before submitting your content for approval.
 
-It's very easy to see this!  Just add "/pages" between ".com" and your username in the URL (i.e. https://github.gaig.com/pages/mmosser/CubeU/).
+It's very easy to see this!  Just add "/pages" between ".com" and your username in the URL (i.e. https://github.gaig.com/pages/mmosser/ SquirrelU/).
 
-Viola! Your personal repository is displayed as the Cube U website! Check out your content and see what it looks like!
+Viola! Your personal repository is displayed as the  Squirrel U website! Check out your content and see what it looks like!
 
 ![](images/TestYourContent.png){: .image}
 
@@ -108,7 +108,7 @@ Viola! Your personal repository is displayed as the Cube U website! Check out yo
 No problem! While you're within your personal repository's rendered content, just click the **Edit** icon (looks like a pencil)
 in the upper, right corner of the content page.  You'll be redirected right into the edit mode of your content in GitHub.
 
-![](images/CubeUEditButton.png){: .image}
+![](images/ SquirrelUEditButton.png){: .image}
 
 From there, you can make your changes and commit as needed and repeat this process until you're happy with everything.
 
@@ -127,8 +127,8 @@ See the "Tags" section of **Front Matter Overview** for more information on the 
 ## How to Keep Your Fork Up to Date
 
 Throughout the entire content contribution process, it is absolutely critical that you keep your
-fork up to date with the BUE/CubeU repository. This will help to avoid merge conflicts and ensure that you are always
-working with the most recent changes to Cube U.
+fork up to date with the BUE/ SquirrelU repository. This will help to avoid merge conflicts and ensure that you are always
+working with the most recent changes to  Squirrel U.
 
 1. Make sure you are on your personal fork and in the gh-pages branch. Next to the branch drop-down, click the green button
 to "compare branches".
@@ -139,12 +139,12 @@ to "compare branches".
 
     ![](images/selectCompareAcrossForks.png){: .image}
 
-3. You will see the **base fork** and **head fork** default to the BUE/CubeU repository
+3. You will see the **base fork** and **head fork** default to the BUE/ SquirrelU repository
 
     ![](images/defaultComparison.png){: .image}
 
-    Change the left repository **base fork** to *your* CubeU repository fork.  The right repository **head fork** should remain
-    set to BUE/CubeU (*both* branches should be set to "gh-pages)"
+    Change the left repository **base fork** to *your*  SquirrelU repository fork.  The right repository **head fork** should remain
+    set to BUE/ SquirrelU (*both* branches should be set to "gh-pages)"
 
     ![](images/changeBaseToYourBranch.png){: .image}
 
@@ -158,16 +158,16 @@ means that your fork is already up-to-date with BUE and there are no changes for
 **I need to start all over, but I've committed changes.  What do I do?**
 
 As long as you don't want to keep any of the changes (commits) you've made, you can just delete your fork and create a new one
-from BUE: gh-pages.  This will give you a fresh, current copy of the "official" Cube U content. Follow the instructions in the
-"How to Delete a Fork" section of the **Create (Fork) Your Copy of Cube U** page.
+from BUE: gh-pages.  This will give you a fresh, current copy of the "official"  Squirrel U content. Follow the instructions in the
+"How to Delete a Fork" section of the **Create (Fork) Your Copy of  Squirrel U** page.
 
-**What if my work is in progress? Should I still put it in Cube U or wait until it's finalized?**
+**What if my work is in progress? Should I still put it in  Squirrel U or wait until it's finalized?**
 
-Cube U is still the best place for content that is a work in progress. The great thing about working in GitHub is that others can
-view the content on your personal fork and give feedback on your draft before it ever goes to the "official" Cube U site. The
+ Squirrel U is still the best place for content that is a work in progress. The great thing about working in GitHub is that others can
+view the content on your personal fork and give feedback on your draft before it ever goes to the "official"  Squirrel U site. The
 easiest way to share your content is to just send your team mates the URL to the page in question on your personal fork
-(i.e. https://github.gaig.com/pages/mmosser/CubeU/1_CubeU/1_QuickStart/2_CreateUpdateContent/). When they click the link, they'll go straight to that page
-in *your* fork of Cube U.
+(i.e. https://github.gaig.com/pages/mmosser/ SquirrelU/1_ SquirrelU/1_QuickStart/2_CreateUpdateContent/). When they click the link, they'll go straight to that page
+in *your* fork of  Squirrel U.
 
 You may also want to consider using the "" status in the Front Matter of your content until the content is finalized.
 **Need help understanding Front Matter?** Take a look at the **Front Matter Overview** page for assistance.
@@ -181,7 +181,7 @@ when you submit your content for approval, based on collaboration with the revie
 
 ## For Further Reading
 
-* You can expedite the approval process by reviewing the **Cube U Guidelines Checklist** page and making sure that your content
+* You can expedite the approval process by reviewing the ** Squirrel U Guidelines Checklist** page and making sure that your content
 adheres to these guidelines before moving forward. This checklist summarizes items that the reviewer will be looking at with respect
-to Cube U's standard formatting and content standards.
+to  Squirrel U's standard formatting and content standards.
 

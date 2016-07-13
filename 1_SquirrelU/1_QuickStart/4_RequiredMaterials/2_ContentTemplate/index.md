@@ -1,20 +1,20 @@
 ---
 layout:         page
-title:          "Cube U Content Template"
+title:          "Squirrel U Content Template"
 breadcrumb:     "Content Template"
-author:         Mosser
+author:         Zippy
 status:
 category:
 contenttype:
 tags:           Page, Template, Content
 ---
 
-Copy the template below to your clipboard any time you want to create a new page in Cube U.  It will serve as a guide to
+Copy the template below to your clipboard any time you want to create a new page in Squirrel U.  It will serve as a guide to
 completing your new page.
 
     ---
     layout:         page
-    title:          "Cube U Content Template"
+    title:          "Squirrel U Content Template"
     breadcrumb:     "Content Template"
     author:         Mosser
     status:
@@ -32,7 +32,7 @@ completing your new page.
 
     Example:
     The purpose of this document is to supply a "copy and paste" template to serve as a foundation for new content being
-    created for Cube U.
+    created for Squirrel U.
 
     ## Prerequisites (Required)
 
@@ -71,8 +71,8 @@ completing your new page.
 
     "What's all that stuff between the '---'s?"
 
-    That section is called "Front Matter", which Jekyll uses to create Cube U web pages. Front Matter is *extremely* important
-    to keeping Cube U organized and enables people to find your content.  Think of Front Matter as metadata describing the
+    That section is called "Front Matter", which Jekyll uses to create Squirrel U web pages. Front Matter is *extremely* important
+    to keeping Squirrel U organized and enables people to find your content.  Think of Front Matter as metadata describing the
     page and contents.  Take a look at the "Front Matter Overview" page for more information on completing this section.
 
     "What does that {{ "{% include toc.html " }}%} tag at the top do?"

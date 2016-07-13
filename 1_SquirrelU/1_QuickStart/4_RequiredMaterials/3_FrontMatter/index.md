@@ -2,7 +2,7 @@
 layout:         page
 title:          "Front Matter Overview"
 breadcrumb:     "Front Matter Overview"
-author:         Kohl, Mosser
+author:         Poppy, Zippy
 status:         
 category:
 contenttype:
@@ -22,8 +22,8 @@ it must have Front Matter.  Think of Front Matter as metadata describing the
 page and contents.
 
 This section will go through each data element that Front Matter should contain 
-for every page in the Cube U site.  Front Matter can be different for every
-project/site, but we are focusing on what has been chosen for Cube U content.
+for every page in the Squirrel U site.  Front Matter can be different for every
+project/site, but we are focusing on what has been chosen for Squirrel U content.
 
 ## Prerequisites
 
@@ -31,8 +31,8 @@ project/site, but we are focusing on what has been chosen for Cube U content.
 
 ## Example
 
-Here is an example of Front Matter for Cube U content.  This "block" should be
-included at the top of *every* index.md file in the Cube U directory structure.
+Here is an example of Front Matter for Squirrel U content.  This "block" should be
+included at the top of *every* index.md file in the Squirrel U directory structure.
 
 ```markdown
 ---
@@ -107,11 +107,11 @@ Not used at this time, leave this blank.
 
 Tags are used in the search indexing process.  Create multiple tags for your contribution in Front Matter by using a comma
 separated list in the Tags section of Front Matter. Results in a search activity will include content that contains a Front
-Matter tag.  Tags are an *extremely* important element that contribute directly to the success of the Cube U site.
+Matter tag.  Tags are an *extremely* important element that contribute directly to the success of the Squirrel U site.
 
 Pay careful attention to what text you use for tags. Common English words are automatically stripped / ignored. Pick keywords that sum
 up the article. Include any keywords that are particularly unique or may prove beneficial to the reader during search. Words
-such as "CUBE" are too general. Acronyms, words or phrases such as RPM are perfect.
+such as "Squirrel" are too general. Acronyms, words or phrases such as RPM are perfect.
 
 If you are specifying an acronym, please also provide the expanded phrase represented by the acronym. Following these guidelines
 will help establish a high quality search index.

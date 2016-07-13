@@ -1,8 +1,8 @@
 ---
 layout:         summary
-title:          "Start Contributing to CUBE U"
+title:          "Start Contributing to Squirrel U"
 breadcrumb:     "Start Contributing"
-author:         Mosser
+author:         Zippy
 status:
 category:
 contenttype:
@@ -12,19 +12,19 @@ tags:           quick start, steps, guide, contribution
 {% include toc.html %}
 
 ## Introduction
-Contributing to Cube U is as easy as 1...2...3!  This Cube U Quick Start Guide will take you through the process of contributing to
-Cube U via the GitHub interface.
+Contributing to Squirrel U is as easy as 1...2...3!  This Squirrel U Quick Start Guide will take you through the process of contributing to
+Squirrel U via the GitHub interface.
 
 ## Prerequisites
 
 * The only thing you need before you get started is access to GitHub.  Requesting access is very easy and usually has a
 very quick turnaround time.  Just follow the steps under the **Request Access to GitHub (Our Source Code Repository)** section
-of the **Required Access Requests for CUBE** page for instructions on gaining access.  Under the **Request Description** step, you'll
+of the **Required Access Requests for Squirrel** page for instructions on gaining access.  Under the **Request Description** step, you'll
 just want to put "Please grant this user access to the BUE organization in GitHub"
 
 ## Start Contributing Today!
 
-1. Create ("Fork") a personal copy of Cube U in GitHub
+1. Create ("Fork") a personal copy of Squirrel U in GitHub
 
 2. Create or update your content
 
@@ -34,25 +34,25 @@ That's it!
 
 ## Want to contribute using IntelliJ?
 
-Cube U's Quick Start Guide outlines the easiest and quickest way to start contributing to Cube U for the most generic user. However,
+Squirrel U's Quick Start Guide outlines the easiest and quickest way to start contributing to Squirrel U for the most generic user. However,
 if you are a developer with an IDE such as IntelliJ, you may prefer to work in that environment. We have outlined how to
-contribute directly from IntelliJ in the **How to Contribute to Cube U via IntelliJ** page.
+contribute directly from IntelliJ in the **How to Contribute to Squirrel U via IntelliJ** page.
 
 ## FAQ
 
 **Why can't I just put my content in Jive like always?**
 
-That's a great question!  There are actually several reasons that Cube U is the preferred medium for housing valuable content
-related to CUBE and the development space.  Take a look at the **Orientation** section of Cube U, namely the **About Cube U**
-page, to learn more about the motivation and purpose behind Cube U's existence.
+That's a great question!  There are actually several reasons that Squirrel U is the preferred medium for housing valuable content
+related to Squirrel and the development space.  Take a look at the **Orientation** section of Squirrel U, namely the **About Squirrel U**
+page, to learn more about the motivation and purpose behind Squirrel U's existence.
 
-**Who is the audience for Cube U?**
+**Who is the audience for Squirrel U?**
 
-As of this time, Cube U's main audience is developers on the CUBE project.  This is not to say that other groups, roles and teams
-can't use Cube U, but these are the users and contributors that are considered "in scope" for content at this time
+As of this time, Squirrel U's main audience is developers on the Squirrel project.  This is not to say that other groups, roles and teams
+can't use Squirrel U, but these are the users and contributors that are considered "in scope" for content at this time
 
 ## For Further Reading
 
-* To learn more about Cube U "under the hood", visit the **Architecture** section of Cube U where we explain some of the underlying
-technologies used to make Cube U work
+* To learn more about Squirrel U "under the hood", visit the **Architecture** section of Squirrel U where we explain some of the underlying
+technologies used to make Squirrel U work
 
