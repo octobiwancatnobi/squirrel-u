@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="scss" pattern="file:*.scss&amp;&amp;!file[squirrel-u]:_site//*&amp;&amp;!file[squirrel-u]:lib//*&amp;&amp;!file[squirrel-u]:1_SquirrelU//*" />
+</component>
