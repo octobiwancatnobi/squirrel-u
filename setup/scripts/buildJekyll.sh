@@ -104,11 +104,11 @@ bundle update
 # setup upstream remote; origin already set
 upExist=`git remote|grep upstream`
 if [ ! "$upExist" == "upstream" ]; then
-    git remote add upstream https://github.gaig.com/BUE/CubeU
+    git remote add upstream https://zippyzsquirrel@github.com/zippyzsquirrel/squirrel-u.git
     git fetch --all
     git branch -u upstream/gh-pages
     git remote set-url --push upstream no_push
-    echo "CUBE U upstream remote added"
+    echo "Squirrel U upstream remote added"
 else
-    echo "CUBE U upstream remote already exists ..."
+    echo "Squirrel U upstream remote already exists ..."
 fi
