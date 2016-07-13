@@ -1,10 +1,10 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Build Jekyll - Windows" type="BashConfigurationType" factoryName="Bash">
     <option name="INTERPRETER_OPTIONS" value="" />
-    <option name="INTERPRETER_PATH" value="C:\Program Files\Git\git-bash.exe" />
+    <option name="INTERPRETER_PATH" value="C:\Development\Git\git-bash.exe" />
     <option name="WORKING_DIRECTORY" value="" />
     <option name="PARENT_ENVS" value="true" />
-    <option name="SCRIPT_NAME" value="scripts/buildJekyll.sh" />
+    <option name="SCRIPT_NAME" value="setup/scripts/buildJekyll.sh" />
     <option name="PARAMETERS" value="" />
     <module name="" />
     <envs />
