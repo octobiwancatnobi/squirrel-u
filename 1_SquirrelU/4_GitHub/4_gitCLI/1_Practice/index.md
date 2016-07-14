@@ -19,7 +19,7 @@ This section provides some practice exercises to enhance your understanding of t
 
 ## Prerequisites
 
-* Access to GAIG GitHub repository (note about how to get that)
+* Access to GitHub repository (note about how to get that)
 
 TODO: MM All of this needs work
 
