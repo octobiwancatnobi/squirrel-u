@@ -1,8 +1,8 @@
 ---
 layout:         page
-title:          "How to Contribute to Cube U via IntelliJ"
+title:          "How to Contribute to Squirrel U via IntelliJ"
 breadcrumb:     Contribute with IntelliJ
-author:         Kohl
+author:         Zippy
 status:     
 category:
 contenttype:
@@ -115,7 +115,7 @@ ignored.
 
 ## Create a Pull Request
 
-Creating a Pull Request is outlined in the Quick Start Guide (**Submit Cube U Content for Approval**). After you have pushed
+Creating a Pull Request is outlined in the Quick Start Guide (**Submit Squirrel U Content for Approval**). After you have pushed
 all of the changes you would like included in your Pull Request, you can complete these steps to request that your changes be
 merged.
 
