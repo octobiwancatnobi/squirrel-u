@@ -2,7 +2,7 @@
 layout:     page
 title:      "GitHub Workflow Summary"
 breadcrumb: "Workflow Summary"
-author:
+author:     Zippy
 status:     
 category:
 contenttype:
@@ -13,27 +13,27 @@ tags:       Git, GitHub, Workflow, Summary
 
 ## Introduction
 
-This section provides a summary of the workflows chosen for GAIG by  Developer, Tech Lead and Release Manager roles.
+This section provides a summary of the workflows chosen for Squirrel Works by  Developer, Tech Lead and Release Manager roles.
 
 ## Prerequisites
 
 * None
 
-## GAIG GitHub Repository Model
+## Squirrel Works GitHub Repository Model
 
 ![]({{ site.github.url }}/images/octocat.png){: .right}
 
 By now, you've viewed the Organizations and Repositories that comprise Squirrel.  See [GitHub Repository Overview]({{ site.github.url }}/3_Development/1_Setup/3_projectSetup/2_gitHubRepositoryOverview/).
 
 Although GitHub can support direct commit of master branches in primary Repositories,
-GAIG is not using such a direct commit model for developers.
+Squirrel Works is not using such a direct commit model for developers.
 
-The following access roles are used across GAIG Repositories:
+The following access roles are used across Squirrel Works Repositories:
 
  * Developer - READ only (clone) privilege
  * Approver - READ and APPROVE privilege
 
-Squirrel is using an approval-based commit model rather than direct commits.
+Squirrel Works is using an approval-based commit model rather than direct commits.
 Direct merging to master branches may only be done by an Approver (typically a Tech Lead).
 
 However if you have an Approval role and have to merge your own code,
@@ -62,7 +62,7 @@ your public, forked repository.
 Create a copy (B) of the BASE repository (A) by using a command called “Fork”.  In general, you will only do this the
 first time you are setting up your personal GitHub repository (B). A Fork is your PUBLIC copy of any Repository, which
 is stored directly on the GitHub server.  Any needed Repositories must be forked by each user.  The primary repositories
-will reflect how many users have forked their own public copies.  For example, you can see that the Squirrel-ws-clients
+will reflect how many users have forked their own public copies.  For example, you can see that this
 repository has been forked 48 times.
 
 ![](images/forkedNumber.png){: .image}
@@ -155,14 +155,13 @@ Pull Request; the BASE repository remains unchanged.
   * There no longer needs to be a long code freeze, aside of a momentary pause to allow for a base head version 
     to be tagged.  
   * Tagging is done via Git tags, which can be applied via IntelliJ 
-  * Tagging scheme is a three part scheme:  [see Isaac for detail]
-    NOTE: we've discussed going to four part scheme ... when?
+  * Tagging scheme is a three part scheme:  [see Whiskers for detail]
   * This tagging has to be applied to the 5 supported Squirrel-* repositories.  
-  * Maven snapshots need to be created / managed.  TODO: detail from Isaac
+  * Maven snapshots need to be created / managed.
   * How to build a release to send to Jenkins and up the stack
     something like: https://help.github.com/articles/creating-releases
   * Distribute the release to the appropriate system (Jenkins) ...
-    TODO what else needs to happen?
+    
 
 ## For Further Reading
   

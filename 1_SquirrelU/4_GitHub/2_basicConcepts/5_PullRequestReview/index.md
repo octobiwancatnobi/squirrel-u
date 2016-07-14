@@ -2,7 +2,7 @@
 layout:     page
 title:      "Pull Request and Review"
 breadcrumb: "Pull Request and Review"
-author:
+author:     Poppy
 status:     
 category:
 contenttype:
@@ -33,11 +33,11 @@ via the Pull Request.
 ## Prerequisites
 
 * Before completing a Pull Request, you first need to have pushed your code to
-your public GitHub repository.  See [Code, Commit and Push]({{ site.github.url }}/3_Development/2_VersionControlSystem/2_basicConcepts/4_CodeCommitPush/) for assistance.
+your public GitHub repository.  See [Code, Commit and Push]({{ site.github.url }}/1_SquirrelU/4_GitHub/2_basicConcepts/4_CodeCommitPush/) for assistance.
 
 ## Viewing Pull Requests
 
-1. Navigate to GAIG's GitHub URL <https://github.gaig.com/Squirrel> and login
+1. Navigate to GitHub and login
 
 2. Select the repository for which you would like to view Pull Requests
 
@@ -111,7 +111,6 @@ has been created.  Clicking the link in the alert will take to you to the GitHub
 
 ## Comparing a Pull Request <span class="octicon octicon-git-compare" style="font-size: 20px"></span>
 
-TODO need detail here
 
 ## Commenting on a Pull Request <span class="octicon octicon-comment" style="font-size: 20px"></span>
 
@@ -167,7 +166,6 @@ your master (stays with PR) or create a new branch (requires a new Pull Request)
 
 ![](images/revisePullRequest.png){: .image}
 
-TODO: MM Need more details and screenshots
 
 **Modify with Additional Pushes**
 
@@ -192,9 +190,7 @@ code reviews.  A pull request that sits too long or is merged out of order can c
 **How do I configure it?**
 
 On your Jenkins job configuration, check **GitHub Pull Request Builder**. Under **List of organizations. Their members will 
-be whitelisted**, add your git organization.  For example “BUE.”
-
-TODO: MM I don't understand where this is.  Can we get a screenshot
+be whitelisted**, add your git organization.  For example “Squirrel Works.”
 
 **How do I use it?**
 
@@ -207,7 +203,7 @@ Jenkins will eventually see the comment, grab the pull request, build it and upd
 ![](images/gitHubPullRequestBuilder_02.png){: .image}
 
 If it fails, you can make changes, then do it again. Here is the Jenkins build log with the pull request at the top.  It 
-will link back to the GitHub UI.  The Pull Request Builder should only run in CI, not Official, here is a link to it: <https://cidev.admin.gaic.com> 
+will link back to the GitHub UI.  The Pull Request Builder should only run in CI, not Official.
 
 ![](images/gitHubPullRequestBuilder_03.png){: .image}
 

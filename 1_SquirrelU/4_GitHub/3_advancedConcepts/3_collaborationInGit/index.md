@@ -2,7 +2,7 @@
 layout:         page
 title:          "Collaborating with GitHub"
 breadcrumb:     "Collaboration"
-author:         Ben
+author:         Squeeks
 status:         
 category:
 contenttype:
@@ -19,7 +19,7 @@ fairly painless process that doesn't deviate too much from working on any other 
 
 ## Prerequisites
 
-* 
+* None
 
 ## Setup Steps
 
@@ -65,8 +65,6 @@ git remote -v
     ![](images/collaborationInGit_04.png){: .image}
     
     To add the person's remote run the following command: git remote add [alias] [GitHub URL] 
-    
-    Ex. git remote add jkohl2 https://github.gaig.com/jkohl2/Squirrel-env.git
     	
     ![](images/collaborationInGit_05.png){: .image}
     
@@ -92,7 +90,7 @@ use the HEAD of wherever you are currently at as the HEAD of the new branch as w
 means that you could be adding changes unintentionally to someone else's work when you 
 finally push your changes.
 
-For the following examples the branch 'jim' will be used.
+For the following examples the branch 'Zippy' will be used.
 
 2. Now you can pull in the changes from the other person's branch to begin working on 
 their code, or contributing your code to their branch.  In IntelliJ, go to Pull in the 
