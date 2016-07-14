@@ -1,8 +1,8 @@
 ---
 layout:         page
-title:          "Cube U's Development Stack Components"
+title:          "Squirrel U's Development Stack Components"
 breadcrumb:     "Technical Components"
-author:         Kohl, Mosser
+author:         Zippy
 status:         
 category:
 contenttype:
@@ -11,15 +11,15 @@ tags:           markdown, github pages, jekyll, front matter, liquid, bootstrap
 {% include toc.html %}
 
 ## Introduction
-Lets take a closer look at the architecture for Cube U.
+Lets take a closer look at the architecture for Squirrel U.
 
 ## Prerequisites
 
 * None 
 
 ## GitHub
-The Cube U project lives in a GitHub Enterprise repository called "CubeU" in the
-BUE organization. This is the same source control repository CUBE uses for its
+The Squirrel U project lives in a GitHub Enterprise repository called "squirrel-u" in Zippy's repo. This
+is the same source control repository SquirrelWorks uses for its
 source code. This allows us to treat our knowledge content with the same care and
 diligence that we do our code. This means that content will be version 
 controlled; content will be stored in a central location and go through the same
@@ -28,13 +28,13 @@ the network.
 
 Having a diligent review process means that content is reviewed for consistency,
 accuracy, completeness, standards, etc. before it goes "live". This will allow
-Cube U content to be more "authoritative" in nature. We want Cube U to be a place
-where CUBE Developers can go to quickly find the information that they need to do
-a quality job in CUBE...with the confidence that the information they are getting 
+Squirrel U content to be more "authoritative" in nature. We want Squirrel U to be a place
+where SquirrelWorks Developers can go to quickly find the information that they need to do
+a quality job...with the confidence that the information they are getting
 is accurate, complete and update-to-date.
 
 ## Markdown
-Markdown, abbreviated as md, has been selected as the content medium for Cube U.
+Markdown, abbreviated as md, has been selected as the content medium for Squirrel U.
 Markdown is a very simple markup language that provides the ability to write 
 plain text content for web pages.  There are several different markdown 
 processors; we are using kramdown, which is set in the _config.yml file.
@@ -56,28 +56,10 @@ in the **Markdown Overview** page.
 ## GitHub Pages
 
 GitHub offers an awesome feature called GitHub Pages, which are web pages hosted 
-and published through the GitHub site. Each time there is a merge in the CubeU
+and published through the GitHub site. Each time there is a merge in Zippy's repo
 repository ... gh-pages branch, the content is converted through Jekyll 
 (more below). This provides a straight path for curated content placed into 
 GitHub to be automatically built into a website served on GitHub Pages.
-
-All we have to do is add "pages" to the Cube U GitHub URL and viola!...our content
-is rendered right there.
-
-Here we are at the top level directory of our Cube U repository...note the URL
-
-![](images/github.png){: .image} 
-
-Simply add "pages" to the URL and the content is rendered in the browser
-
-![](images/githubpages.png){: .image} 
-
-The same concept exists for personal repositories as well, allowing users to view
-their work rendered in the browser before submitting a
-Pull Request to the BASE repository.
-
-Note that this option has to be turned on for each repository by going to the 
-settings icon on your Repo page.
 
 ## Jekyll
 
@@ -146,7 +128,7 @@ provides styling for a variety of languages.
          monokai.sublime, 
          thankful_eyes 
 ``` 
-Cube U is currently using the thankful_eyes theme.
+Squirrel U is currently using the thankful_eyes theme.
  
 **To build the styled theme**
  
@@ -266,7 +248,7 @@ Example:
 
 ![](images/liquidStatement.png) 
 
-For example, you may have noticed that every page in Cube U has a **Contents**
+For example, you may have noticed that every page in Squirrel U has a **Contents**
 section at the top.  This list is generated dynamically using a Liquid 
 "includes" statement (similar to the one above, but referring to the 
 toc.html) which links it to an external HTML file (written with Liquid) 
@@ -288,7 +270,7 @@ You can see the impact of Liquid processing on startup time by looking in the
 Jekyll server startup output as profiling is turned on. You can see how long a
 step has taken and the number of files that it has processed in doing so.
 
-Cube U utilizes Liquid in a number of ways:
+Squirrel U utilizes Liquid in a number of ways:
 
  * Building the Breadcrumb trail
  * Building the content hierarchy
@@ -313,17 +295,17 @@ contained in its own file and inserted into the main site template,
 
 ## Bootstrap and Custom Styling
 
-Wherever possible, styling is being applied to Cube U using the Bootstrap
+Wherever possible, styling is being applied to Squirrel U using the Bootstrap
 library.  Customized styling is avoided in lieu of a Bootstrap solution, however 
 there will always be a need to either alter Bootstrap styling or create new 
 styling completely.
 
 ## JavaScript
-Some JavaScript is used within the Cube U framework, namely a few standard
+Some JavaScript is used within the Squirrel U framework, namely a few standard
 libraries such as Bootstrap, jQuery and Lunr. 
 
 ## Additions
-The following additions have helped to advance Cube U functionality:
+The following additions have helped to advance Squirrel U functionality:
 
  1. For better layout:  Bootstrap
  2. For left hand nav: [Data Driven Navigation](http://www.tournemille.com/blog/How-to-create-data-driven-navigation-in-Jekyll/)

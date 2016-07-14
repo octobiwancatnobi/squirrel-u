@@ -1,8 +1,8 @@
 ---
 layout:         page
-title:          "How to Contribute to Cube U via IntelliJ"
+title:          "How to Contribute to Squirrel U via IntelliJ"
 breadcrumb:     Contribute with IntelliJ
-author:         Kohl
+author:         Zippy
 status:     
 category:
 contenttype:
@@ -115,7 +115,7 @@ ignored.
 
 ## Create a Pull Request
 
-Creating a Pull Request is outlined in the Quick Start Guide (**Submit Cube U Content for Approval**). After you have pushed
+Creating a Pull Request is outlined in the Quick Start Guide (**Submit Squirrel U Content for Approval**). After you have pushed
 all of the changes you would like included in your Pull Request, you can complete these steps to request that your changes be
 merged.
 
@@ -163,7 +163,5 @@ Here's how the viewer looks:
 
 ## For Further Reading
 
-* To learn more about Cube U "under the hood", visit the **Architecture** section of Cube where we explain some of the underlying
-technologies use to make Cube U work
 * <https://help.github.com/enterprise/2.4/user/articles/using-jekyll-with-pages/>
 
