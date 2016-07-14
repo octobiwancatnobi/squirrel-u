@@ -1,25 +1,22 @@
 ---
 layout:     page
-title:      "Cube U Project Structure"
+title:      "Squirrel U Project Structure"
 breadcrumb: "Project Structure"
-author:     Kohl, Mosser
+author:     Zippy
 status:     
 category:
 contenttype:
-tags:       Cube U, Structure, Directory, Directories, File, Standards, Permalink
+tags:       Squirrel U, Structure, Directory, Directories, File, Standards, Permalink
 ---
 {% include toc.html %}
 
 ## Introduction  
 
-This section dives into the file and directory content of Cube U Git Project.
+This section dives into the file and directory content of Squirrel U Git Project.
 
 ## Prerequisites
 
-* If you want to view Cube U's project structure for yourself, you'll need access to GitHub.  Requesting access is very easy and usually has a
-  very quick turnaround time  Just follow the steps under the **Request Access to GitHub (Our Source Code Repository)** section
-  of the **Required Access Requests for CUBE** page for instructions on gaining access.  Under the **Request Description** step, you'll
-  just want to put "Please grant this user access to the BUE organization in GitHub"
+* If you want to view Squirrel U's project structure for yourself, you'll need access to GitHub.
 
 ## Directory and File Structure
 
@@ -40,15 +37,13 @@ topic directories.
 
 **Main Topic Directories**
 
-The rest of the Cube U hierarchy is composed of directories containing Markdown
+The rest of the Squirrel U hierarchy is composed of directories containing Markdown
 files, images and other files as needed to provide code examples, videos, etc.
 
-At its highest level, Cube U has been divided into 5 major sections: Cube U,
-Platform, Development, Improving Quality and Appendix. 
+At its highest level, Squirrel U has been divided into 5 major sections: Squirrel U,
+Platform, Development, Improving Quality and Appendix.
 
-![](images/fiveMainSections.png){: .image} 
-
-The **Cube U** directory contains content related to the Cube U platform and
+The **Squirrel U** directory contains content related to the Squirrel U platform and
 does *not* contain any information specifically related to CUBE.
 
 The **Platform** directory provides an introduction to CUBE such as its history,
@@ -73,15 +68,13 @@ perhaps some overview dialogue and an automated list of the subdirectories conta
 Note that this summary file is *required* in order to generate the content
 navigation as outlined below.
 
-![](images/navigationDirectory.png){: .image}
+Rendered in Squirrel U:
 
-Rendered in Cube U:
-
-![](images/navigationDirectoryCubeU.png){: .image}
+![](images/navigationDirectorySquirrelU.png){: .image}
 
 **Content Directories**
 
-At the lowest levels of the hierarchy are "content directories". These directories typically contain the "meat" of Cube U,
+At the lowest levels of the hierarchy are "content directories". These directories typically contain the "meat" of Squirrel U,
 with all of the reading material, examples, videos and images that cover a particular topic.
 Again, at a minimum, each of these directories contains an index.md file
 containing the content itself. Other, supplemental directories may also be
@@ -92,9 +85,9 @@ to generate the content navigation as outlined below.
 
 ![](images/contentDirectory.png){: .image}
 
-Rendered in Cube U:
+Rendered in Squirrel U:
 
-![](images/contentDirectoryCubeU.png){: .image}
+![](images/contentDirectorySquirrelU.png){: .image}
 
 ## Standards
 
@@ -111,7 +104,7 @@ generated. If there is any supplementary content to be included within the
 * Videos should be in a peer directory called "video"
 
 Directories should be named using CamelCase preceded by a #_ character (i.e. 
-1_CubeUOverview). The numbering allows for topics to self-order. Cube U wants to
+1_SquirrelUOverview). The numbering allows for topics to self-order. Squirrel U wants to
 keep content well organized with a number of sub-directories within a single 
 directory to no more than 10 chapters (numbered 0 through 9). 
 
@@ -122,9 +115,7 @@ directory should reference the parent directory:  ../images
 
 If an image is shared by more than one content file (for example, logos), it can 
 be placed in an "images" directory that is a peer to the directory that the files share. However this practice should be
-kept to a mininimum as it makes content less portable.
-
-![](images/sharedImages.png){: .image}
+kept to a minimum as it makes content less portable.
 
 ## _config.yml
 
@@ -141,8 +132,6 @@ this option was overriden by using the following line:  smart_quotes: ["apos", "
 
 We are using the "permalink: pretty" option in the _config.yml file, 
 which allows a link to simply reference a directory name.
-
-![](images/permalinkPretty.png){: .image}
 
 This option does a couple of things:
 

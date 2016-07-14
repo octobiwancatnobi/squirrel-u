@@ -109,9 +109,7 @@ closed. Currently, the site is set to expand only the section that you have sele
 and close all other sections which you are not viewing.  
 
 When you select a topic from the breadcrumb trail, search or use an internal link,
-the topics's section will be opened and the topics will be highlighted.  
-
-![](images/collapsedHierarchy.png){: .image}
+the topics's section will be opened and the topics will be highlighted.
 
 ## Search
 
