@@ -1,30 +1,3 @@
-<!--<div style="color:white">-->
-	<!--<span class="glyphicon glyphicon-home"></span>-->
-	<!--COURSES-->
-<!--</div>-->
-<!--<div>-->
-	<!--<ul>-->
-		<!--{% for module in site.data.nav %}-->
-		<!--{% if module.subcategories != null %}                &lt;!&ndash; check to see if the data file has a submenu, and if so display it &ndash;&gt;-->
-		<!--<li class="dropdown">-->
-			<!--<a href="{{ module.url }}" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">-->
-				<!--{{ module.title }}<i class="fa fa-angle-down"></i>-->
-			<!--</a>-->
-			<!--<ul class="dropdown-menu">-->
-				<!--{% for subcategory in module.subcategories %}-->
-				<!--<li><a href="{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>-->
-				<!--{% endfor %}-->
-			<!--</ul>-->
-			<!--{% else %}-->
-			<!--<!— display the top level navigation for items that don’t have a submenu &ndash;&gt;-->
-		<!--<li>-->
-			<!--<a href="{{ site.github.url }}{{ module.href }}">{{ module.title }}</a>-->
-		<!--</li>-->
-		<!--{% endif %}-->
-		<!--{% endfor %}-->
-	<!--</ul>-->
-<!--</div>-->
-
 
 <!--Temporary for GitHub Training-->
 
@@ -35,7 +8,7 @@
 
 <div id="navlist">
 	<ul>
-		<li><a href="{{ site.github.url }}/3_Development/1_Setup/" style="color: white">Setting Up Your CUBE Environment</a></li>
+		<li><a href="{{ site.github.url }}/3_Development/1_Setup/" style="color: white">Setting Up Your Development Environment</a></li>
 			<ul>
 				<li><a href="{{ site.github.url }}/3_Development/1_Setup/1_Access/" style="color: white">Access Requests</a></li>
 				<li><a href="{{ site.github.url }}/3_Development/1_Setup/2_softwareInstall/" style="color: white">Software Installs</a></li>

@@ -22,18 +22,18 @@ tags:           Welcome, Squirrel University
 <div class="row">
 
 <div class="col-sm-12 col-md-6 col-lg-4 trail" style="padding: 20px 20px 0px 5px;">
-    <a href="{{ site.github.url }}/1_CubeU/0_Summary/">
+    <a href="{{ site.github.url }}/1_SquirrelU/0_Summary/">
         <img src="images/Acorn1.png" alt="Contributing"></a>
 </div>
 
 <div class="col-sm-12 col-md-6 col-lg-4 trail" style="padding: 20px 20px 0px 5px;">
-	<a href="{{ site.github.url }}/3_Development/2_VersionControlSystem/0_Summary/">
+	<a href="{{ site.github.url }}/1_SquirrelU/4_GitHub/0_Summary/">
 		<img src="images/Acorn2.png" alt="Learn GitHub"></a>
 </div>
 
 <div class="col-sm-12 col-md-6 col-lg-4 trail" style="padding: 20px 20px 0px 5px;">
-	<a href="{{ site.github.url }}/3_Development/1_Setup/0_Summary/">
-		<img src="images/Acorn1.png" alt="CUBE Setup"></a>
+	<a href="{{ site.github.url }}/1_SquirrelU/5_Nuts/1_Acorn/0_Summary/">
+		<img src="images/Acorn1.png" alt="Acorn Info"></a>
 </div>
 
 </div>
