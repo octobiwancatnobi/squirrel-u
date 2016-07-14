@@ -33,6 +33,5 @@ Your Copy of Squirrel U** page. Complete the steps as outlined on that page befo
 
 ## For Further Reading
 
-* To learn more about Squirrel U "under the hood", visit the **Architecture** section of Squirrel where we explain some of the underlying
-technologies use to make Squirrel U work
+* None
 

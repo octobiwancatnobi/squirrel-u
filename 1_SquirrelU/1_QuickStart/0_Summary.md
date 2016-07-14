@@ -31,6 +31,5 @@ That's it!
 
 ## For Further Reading
 
-* To learn more about Squirrel U "under the hood", visit the **Architecture** section of Squirrel U where we explain some of the underlying
-technologies used to make Squirrel U work
+* None
 

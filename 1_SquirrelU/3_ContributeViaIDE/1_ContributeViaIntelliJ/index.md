@@ -163,7 +163,5 @@ Here's how the viewer looks:
 
 ## For Further Reading
 
-* To learn more about Cube U "under the hood", visit the **Architecture** section of Cube where we explain some of the underlying
-technologies use to make Cube U work
 * <https://help.github.com/enterprise/2.4/user/articles/using-jekyll-with-pages/>
 
