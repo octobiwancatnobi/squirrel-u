@@ -1,19 +1,19 @@
 ---
 layout:     page
-title:      "Managing CUBE Releases in GitHub"
+title:      "Managing Squirrel Releases in GitHub"
 breadcrumb: "Managing Releases"
 author:
 status:     
 category:
 contenttype:
-tags:       Managing, CUBE, Releases, GitHub
+tags:       Managing, Squirrel, Releases, GitHub
 ---
 
 {% include toc.html %}
 
 ## Introduction
 
-This section covers releasing CUBE software from GitHub. 
+This section covers releasing Squirrel software from GitHub. 
 
 ## Prerequisites
 

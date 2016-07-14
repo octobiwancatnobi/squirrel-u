@@ -1,5 +1,5 @@
 (function() {
-    jQuery(function(cubeuApp) {
+    jQuery(function(squirreluApp) {
         // Initalize lunr search fields. Fields with boost matches are more important.
         window.idx = lunr(function () {
             this.field('id');
@@ -12,7 +12,7 @@
         var baseUrl = document.location.origin;
 
         if (baseUrl.indexOf("localhost") === -1 && baseUrl.indexOf("127.0.0.1") === -1) {
-            baseUrl += document.location.pathname.replace(/^(\/pages\/\w+)\b.*$/,"$1")+"/CubeU";    //  will contain /pages/{BU or user}
+            baseUrl += document.location.pathname.replace(/^(\/pages\/\w+)\b.*$/,"$1")+"/squirrel-u";    //  will contain /pages/{BU or user}
         }
 
         // Download the data from the JSON file we generated

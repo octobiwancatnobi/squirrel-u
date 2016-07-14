@@ -40,7 +40,7 @@ for easy use.
 Great American has purchased the GitHub Enterprise Edition (v2.4), which is hosted
 in the Great American data center. This provides additional security and flexibility
 in utilizing GitHub. With the exception of a few source code repositories, most
-CUBE related modules have been moved into this edition of GitHub and other GAIG
+Squirrel related modules have been moved into this edition of GitHub and other GAIG
 assets will soon be migrated as well.
 
 **Github Trivia**
@@ -99,10 +99,10 @@ Git is a modern version control system, originating in 2005 and is actively main
    * tools such as Jekyll and GitHub Pages for sharing content
 
 **Growing Pains**
-CUBE is growing by leaps and bounds.
+Squirrel is growing by leaps and bounds.
 
 The code base has grown in complexity and continues to evolve in form.  
-The organizations consuming CUBE continue to expand.
+The organizations consuming Squirrel continue to expand.
 The number of teams continue to grow from 3 to 9 (or more).
 The total number of developers has reached 65 (or more).  
 
@@ -112,7 +112,7 @@ there has been greater incidence of a broken development environment.
 Impacting factors include:  
 
  * increased commits to stable DEV that break builds  (particularly at end of sprints) 
- * ad-hoc communication of change via email, or cube to cube  
+ * ad-hoc communication of change via email, or Squirrel to Squirrel  
  * difficult recovery as were rollbacks difficult
 
 By utilizing these Git features, many of these challenges will be mitigated:  
@@ -123,9 +123,9 @@ By utilizing these Git features, many of these challenges will be mitigated:
   
 There still issues that need to be addressed including how we've packaged our software,  
 the multitude of other systems in our architecture and the coupling between source code
-and models in n-cube.
+and models in n-Squirrel.
 
-However, these features will go a long way in improving stability of CUBE development.
+However, these features will go a long way in improving stability of Squirrel development.
   
 ### Better Asset Maintenance
 We plan on utilizing Git/GitHub for software source assets, including:  
@@ -135,11 +135,11 @@ We plan on utilizing Git/GitHub for software source assets, including:
    * Groovy
    * Java
    * XML
-   * Any non-n-cube JSON files (n-cube specification data formerly in JSON files is moving to storage in the n-cube database)
+   * Any non-n-Squirrel JSON files (n-Squirrel specification data formerly in JSON files is moving to storage in the n-Squirrel database)
    * Database DDL scripts
    * Code supporting any support tools (Hudson, Jenkins, etc)
    
-We are also going to use it for publishing our CUBE knowledge base, including CUBE University
+We are also going to use it for publishing our Squirrel knowledge base, including Squirrel University
 and related documents supporting software development (i.e. setup, design, testing).
 
 ## CVS vs. Git Comparisons

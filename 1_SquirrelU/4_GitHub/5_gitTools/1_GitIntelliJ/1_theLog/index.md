@@ -45,7 +45,7 @@ Filtering by author or other keyword can quickly help you find a recent commit t
 
 ### Narrowing Repository Paths  
 By default, the Log shows every Repository that you've brought into your IntelliJ project.  
-At times this might seem like information overload, especially in CUBE with 6 projects!  
+At times this might seem like information overload, especially in Squirrel with 6 projects!  
 ![](images/multiRoots.png){: .image}
  
 You can use the "Paths" dropdown to fine tune the Repositories (roots) which you want to view.  
