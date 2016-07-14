@@ -12,7 +12,7 @@ tags:           quick start, contribute, delete fork
 {% include toc.html %}
 
 ## Introduction
-SquirrelWorks uses an online site called GitHub (a "source code repository") to house all of the code for its project. Because
+SquirrelWorks uses an online site called GitHub (a "source code repository") to house all of the code for its application projects. Because
 Squirrel U was created so that we could hold our knowledge content to the same high standards as
 our source code, its content is *also* housed in GitHub.  *Your* knowledge is an **extremely** valuable asset, so we treat it as such!
 

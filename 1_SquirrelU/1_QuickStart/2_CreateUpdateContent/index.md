@@ -30,12 +30,14 @@ the file containing the content that you would like to update.
 
     Click the **Edit** icon (looks like a pencil) to change your view to edit mode.
 
+    ![](images/file.png){: .image}
+
 2. Once you're in edit mode, you can update the content as needed using Markdown (and *only* Markdown to maintain site consistency).
 
     **Not familiar with Markdown?**  Markdown is a very simple markup language that provides the ability to write plain text
     content for web pages. Visit the **Markdown Overview** page for more information.
 
-    ![](images/contentPage.png){: .image}
+    ![](images/editContent.png){: .image}
 
 ## Create New Content
 

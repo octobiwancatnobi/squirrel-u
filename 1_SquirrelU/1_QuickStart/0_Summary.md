@@ -17,7 +17,7 @@ Squirrel U via the GitHub interface.
 
 ## Prerequisites
 
-* The only thing you need before you get started is a GitHub account. Navigate to <github.com> and create an account.
+* The only thing you need before you get started is a GitHub account. Navigate to <https://github.com/> to register for one...its easy!
 
 ## Start Contributing Today!
 
@@ -28,12 +28,6 @@ Squirrel U via the GitHub interface.
 3. Submit your content for review and approval ("Pull Request")
 
 That's it!
-
-## Want to contribute using IntelliJ?
-
-Squirrel U's Quick Start Guide outlines the easiest and quickest way to start contributing to Squirrel U for the most generic user. However,
-if you are a developer with an IDE such as IntelliJ, you may prefer to work in that environment. We have outlined how to
-contribute directly from IntelliJ in the **How to Contribute to Squirrel U via IntelliJ** page.
 
 ## For Further Reading
 
