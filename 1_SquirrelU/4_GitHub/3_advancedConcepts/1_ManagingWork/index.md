@@ -2,7 +2,7 @@
 layout:     page
 title:      "Managing Work"
 breadcrumb: "Managing Work"
-author:
+author:     Zippy
 status:     
 category:
 contenttype:
@@ -128,7 +128,6 @@ Select your branches to pull from:
 ![](images/pullMergeBranches.png){: .image}
 
 Now we can push our feature branch RA-1234 changes to our public fork.
-TODO: checkout master
 
 Lets initiate a pull request for this feature.  
 After some period of review, our tech lead merges this into master.
@@ -159,7 +158,7 @@ Stashing utilizes a stack concept for managing your changes.
 By pushing and popping, you can can effectively change the branch content that you are working on.  
 
 From there you can push and pop content into Feature Branches, or onto your master.
-After that you can generate Pull Requests as you would do in the GAIG workflow.
+After that you can generate Pull Requests as you would do in the Squirrel Works workflow.
 
 In the scenario we walked through earlier, you could stash the content for RA-5678 onto the stash stack.  
 ![](images/gitStash.png){: .image}

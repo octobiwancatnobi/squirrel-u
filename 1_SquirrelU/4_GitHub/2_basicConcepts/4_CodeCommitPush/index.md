@@ -16,11 +16,11 @@ tags:           Code, Commit, Push
 This section will walk you through changing your code and committing and pushing these changes. 
 
 Most of the steps in this section will be performed in IntelliJ, with verification 
-at the GAIG GitHub website.
+at the Squirrel Works GitHub website.
 
 ## Prerequisites
 
-* Before executing a Commit or Push activity, you should first have your Squirrel environment setup in IntelliJ.  See [Setup Squirrel Projects from Git]({{ site.github.url }}3_Development/1_Setup/1_Squirrel/3_environmentSetup/1_setupProjects) for assistance.  
+* Before executing a Commit or Push activity, you should first have your Squirrel environment setup in IntelliJ.   
 
 ## Code (and Stage)  
 As you modify individual files, they are auto-saved in IntelliJ by default (unless you've disabled that capability).   
@@ -70,9 +70,7 @@ You'll then be prompted with a **Push Commits** window.  Make sure that you are 
 
 Once you are ready, click **Push** to promote your changes to your public fork.
 
-![](images/commitAndPush_02.png){: .image}
-
-Once you are ready, click **Push** to promote your changes to your public fork.  
+![](images/commitAndPush_02.png){: .image} 
 
 Note that if you press **Cancel** instead of **Push**, your changes will be committed only to your local branch.  You will 
 still have the opportunity to push these changes up to your public fork at your next Commit and Push or by choosing to Push
@@ -83,7 +81,7 @@ In the event that you have one or more Commits that you would like to Push to yo
 
 ![](images/commitAndPush_03.jpg){: .image}
 
-A **Push Commits** window will be presente with a list of all of your "unpushed" Commits.  Click **Push** when you are ready. 
+A **Push Commits** window will be presented with a list of all of your "unpushed" Commits.  Click **Push** when you are ready. 
 
 ![](images/commitAndPush_04.png){: .image}
 

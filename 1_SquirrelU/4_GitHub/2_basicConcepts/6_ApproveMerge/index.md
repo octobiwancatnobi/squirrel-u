@@ -27,7 +27,7 @@ This section covers these Pull Request processes in more detail.
 ## Prerequisites
 
 * Before a Pull Request can be approved and merged, it must first be created from
-your public GitHub repository.  See [Pull Request and Review]({{ site.github.url }}/3_Development/2_VersionControlSystem/2_basicConcepts/5_PullRequestReview/) for assistance.
+your public GitHub repository.  See [Pull Request and Review]({{ site.github.url }}/1_SquirrelU/4_GitHub/2_basicConcepts/5_PullRequestReview/) for assistance.
 
 ## Approving a Pull Request
 
@@ -67,7 +67,7 @@ the most recent merge comment
 
 Requesting a change on a Pull Request is as simple as adding a comment, either a
 general comment or at the line item level.  Commenting is covering in the
-[Pull Request and Review]({{ site.github.url }}/3_Development/2_VersionControlSystem/2_basicConcepts/5_PullRequestReview/) section.
+[Pull Request and Review]({{ site.github.url }}/1_SquirrelU/4_GitHub/2_basicConcepts/5_PullRequestReview/) section.
 
 1. After a Pull Request has been created, navigate to the Pull Request View within the
 appropriate repository; click on the title of the Pull Request you would like to view
@@ -132,10 +132,7 @@ Your PR will remain open until it is deleted.  While some people may choose to
 hold a Pull Request open and continue to push to it, it is recommended that you 
 delete your Pull Request after it is approved and merged to keep things clean.
 
-TODO: MM is this supposed to say branch?  
   
 ![](images/deleteBranchAfterMerge.png){: .image}
 
 ## For Further Reading
-
-* [Strategies for Merge Conflicts]({{ site.github.url }}3_Development/2_VersionControlSystem/3_advancedConcepts/1_mergeConflicts/index.md)

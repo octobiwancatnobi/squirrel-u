@@ -2,7 +2,7 @@
 layout:     page
 title:      "Reverting Changes"
 breadcrumb: "Reverting Changes"
-author:
+author:     Zippy
 status:     
 category:
 contenttype:
@@ -28,8 +28,6 @@ You can use a variety strategies to accomplish this:
 * Use IntelliJ's **Local History** to find an older version of your file and merge 
 your changes by hand  
 * Use Revert to a specific version
-
-TODO:  add info on strategies, plus using stash, plus master, cherry picking, etc.
 
 ## Revert in GitHub
 One technique that can be useful in undoing the most recent commit is to use the 
@@ -84,14 +82,12 @@ Choose the reset Type based upon how you want to bring these changes back into y
    * an expression:  <branch>~<n>   
      where n = *number of commits backwards between the latest commit (HEAD) and the required commit*
 
-TODO: discuss doing this in upstream processing.
 
 ## Use Local History 
 This technique utilizes IntelliJ's **Local History** viewer to select, compare 
 and revert to older versions.  You can use this technique to go back and change 
 files individually, then recommit and push to upstream.  
 
-TODO: add screenshot
 
 ## For Further Reading
 

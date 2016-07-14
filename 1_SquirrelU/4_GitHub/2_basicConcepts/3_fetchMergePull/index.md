@@ -2,7 +2,7 @@
 layout:     page
 title:      "Fetch, Merge and Pull"
 breadcrumb: "Fetch, Merge, Pull"
-author:
+author:     Poppy
 status:     
 category:
 contenttype:
@@ -26,7 +26,7 @@ This section covers how to keep your cloned repository up-to-date with the BASE 
 
 ## Prerequisites
 
-*  You should first have your Squirrel environment setup in IntelliJ.  See [Setup Squirrel Projects from Git]({{ site.github.url }}3_Development/1_Setup/1_Squirrel/3_environmentSetup/1_setupProjects) for assistance.
+*  You should first have your Squirrel environment setup in IntelliJ.
 
 ## Fetch then Merge <span class="octicon octicon-git-merge" style="font-size: 20px"></span>
 
@@ -48,8 +48,6 @@ This two step strategy provides more control over what changes you will allow in
 
 4. Click **Merge** to begin the merge.  If your master is ahead or behind the upstream master and you do a merge, Git will attempt to resolve non-conflicting 
 differences.  If successful, there is no more to do.  If unsuccessful, you'll need to take action.
-
-TODO: MM "you'll need to take action" this leaves the reader wondering what to do...need reference to "fixing merge conflicts" or something
 
 Merge strategies (default, resolve, recursive, octopus, ours, subtree) are not a trivial subject.  The merge strategies that you specify 
 for Pull also are used when you attempt to do a Push.If you'd like to learn more, there are links at the end of this section.  
@@ -80,7 +78,7 @@ It really depends on the degree of control which you want to exercise when consu
 selectively take in changes, definitely use Fetch and Merge.  
 
 However, given that we are consuming source AND Squirrel content from many teams, it will likely be to your advantage 
-to consume these changes as a whole package to stay current.  Hence the preference for Squirrel to utilize Pull.  
+to consume these changes as a whole package to stay current.  Hence the preference for Squirrels to utilize Pull.  
 
 ## IntelliJ's "Update Project" 
 There is an "Update Project" button in IntelliJ, which basically does a Pull and gives you the choice of merge vs rebase.
@@ -111,7 +109,6 @@ or
 git pull --rebase
 ```
 
-TODO: MM I don't really understand this...can we add more details?
 
 **Branch Default**
 
