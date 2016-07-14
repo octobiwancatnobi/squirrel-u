@@ -87,7 +87,7 @@ are the simplest way of interacting with GitHub:
 ![](../images/vcsButtons.png){: .image}
 
 #### VCS Update Project Button
-A lot changes in a short time with over 50 CUBE developers,
+A lot changes in a short time with over 50 Squirrel developers,
 so it is important to refresh frequently from the Upstream master branch.
 
 Use the **VCS Update Project** button to consume any recent changes
