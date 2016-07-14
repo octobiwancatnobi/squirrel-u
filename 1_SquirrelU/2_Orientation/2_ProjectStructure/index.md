@@ -33,30 +33,7 @@ page that gets loaded when you visit the site. This file contains links to
 commonly referenced paths in the site. Alongside is a collection of nested
 topic directories.
 
-![](images/indexFile.png){: .image}  
-
-**Main Topic Directories**
-
-The rest of the Squirrel U hierarchy is composed of directories containing Markdown
-files, images and other files as needed to provide code examples, videos, etc.
-
-At its highest level, Squirrel U has been divided into 5 major sections: Squirrel U,
-Platform, Development, Improving Quality and Appendix.
-
-The **Squirrel U** directory contains content related to the Squirrel U platform and
-does *not* contain any information specifically related to CUBE.
-
-The **Platform** directory provides an introduction to CUBE such as its history,
-functionality and architecture.
-
-The **Development** directory contains content related directly to developing in
-the application itself. It includes topics such setting up your CUBE
-environment, its version control system and the various technologies associated
-with CUBE.
-
-The **Improving Quality** directory contains content related to testing, 
-performance improvement, metrics and other strategies, tools and methods for 
-improving the overall quality of the CUBE product. 
+![](images/indexFile.png){: .image}
 
 **Navigation Directories**
 
