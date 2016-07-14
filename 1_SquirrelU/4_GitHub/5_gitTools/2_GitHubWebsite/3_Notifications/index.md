@@ -20,7 +20,7 @@ This section is intended to help you manage the volume of this information.
 
 ## Prerequisites
 
-* GAIG GitHub account  
+* GitHub account  
 
 ## A strategy for cutting down the noise  
 By default the option to be notified for changes to any repository that you have access to is selected by default.  
@@ -29,7 +29,7 @@ Unfortunately this results in a lot of notification traffic, including notificat
 Here's a strategy to narrow down the notification traffic that might work for you:  
 
 ### Specify how you want to be notified about GitHub activity   
- 1. Login to github.gaig.com  
+ 1. Login to github 
  
  2. Click on your user Icon and select Settings  
    ![](images/settingsNotification.png){: .image}  
@@ -41,7 +41,7 @@ Here's a strategy to narrow down the notification traffic that might work for yo
          ![](images/turnOffAutomaticWatching.png){: .image}  
  
  5. Toggle email and web notifications to your preferences:  
-     a. **Participating** - for notifying when you are/have been mentioned (ie @jkohl2)  
+     a. **Participating** - for notifying when you are/have been mentioned (ie @zippy)  
      b. **Watching** - for when any repositories of interest change   
  
 ### Narrow down the Repositories
@@ -55,15 +55,12 @@ Here's a strategy to narrow down the notification traffic that might work for yo
      ![](images/unwatchAll.png){: .image}  
      
  4. Now select the Repositories tab, and click on a link to a repository that you are interested in:    
-    ![](images/myRepositories.png){: .image}  
+
    
  5. Click on the "Watch" button and select "Watching". 
     ![](images/watchCubeResources.png){: .image}  
 
- 6. Repeat this for any other base repositories of interest:  
-   a. BUE/CubeU  
-   b. active sub-projects for n-cube or CUBE
-   c. Team mate's forked repositories if you are directly collaborating with them  
+ 6. Repeat this for any other base repositories of interest 
 
 ## Reduced Repository list
 An additional benefit of reducing the list of repositories that you are watching includes  

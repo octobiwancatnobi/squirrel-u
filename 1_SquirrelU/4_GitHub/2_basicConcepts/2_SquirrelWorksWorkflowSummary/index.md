@@ -23,7 +23,7 @@ This section provides a summary of the workflows chosen for Squirrel Works by  D
 
 ![]({{ site.github.url }}/images/octocat.png){: .right}
 
-By now, you've viewed the Organizations and Repositories that comprise Squirrel.  See [GitHub Repository Overview]({{ site.github.url }}/3_Development/1_Setup/3_projectSetup/2_gitHubRepositoryOverview/).
+By now, you've viewed the Organizations and Repositories that comprise Squirrel.
 
 Although GitHub can support direct commit of master branches in primary Repositories,
 Squirrel Works is not using such a direct commit model for developers.
