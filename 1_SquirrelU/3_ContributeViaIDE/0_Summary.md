@@ -1,5 +1,5 @@
 ---
 layout:         summary
-title:          "Contributing to Cube U with an IDE"
+title:          "Contributing to Squirrel U with an IDE"
 breadcrumb:     "Summary"
 ---

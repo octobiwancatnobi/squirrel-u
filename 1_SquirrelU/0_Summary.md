@@ -1,5 +1,5 @@
 ---
 layout:         summary
-title:          "CUBE University Orientation"
+title:          "Squirrel University Orientation"
 breadcrumb:     "Summary"  
 ---
