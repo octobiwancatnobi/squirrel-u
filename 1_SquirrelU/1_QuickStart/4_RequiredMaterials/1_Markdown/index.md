@@ -16,7 +16,7 @@ tags:           Code, Syntax Highlighting, Markdown, Rouge, emoji
 This section provides a summary of Markdown that you will frequently utilize. The 
 Markdown format utilized is GFM or GitHub Flavored Markdown.
 
-Please note that your Cube U content should *only* be utilizing Markdown as opposed to embedding other languages such as HTML. This
+Please note that your Squirrel U content should *only* be utilizing Markdown as opposed to embedding other languages such as HTML. This
 will help maintain styling and consistency throughout the site.
 
 ## Prerequisites
@@ -81,23 +81,14 @@ You can include links in your documentation in two ways:
     
     > [Click here to go to Google](https://www.google.com)
 
-At this time, it is generally preferred that you avoid linking to other Cube U documents
+At this time, it is generally preferred that you avoid linking to other Squirrel U documents
 as movement of content will make these references more brittle over time 
 resulting in broken links.  
 
-If you move a content module within Cube U via refactoring, make sure that
+If you move a content module within Squirrel U via refactoring, make sure that
 you check the references option and any referenced links will be adjusted.  
 
 Links are relative to the basepath. You do not need to include this basepath in your links!
-
-Basepath is automatically provided from the host environment:  
-
-1. GitHub Enterprise  ```https://github.gaig.com/pages/[ORGANIZATION]/CubeU```
-    * ORGANIZATION will be either:
-        * GitHub organization (such as BUE) or 
-        * your fork account
-
-2. Local Jekyll:   ```localhost:4000/```
 
 ### Images
 
@@ -353,17 +344,17 @@ Someone once said:
 
 ### Coding Examples
 
-In Cube U, you'll likely want to display HTML, JavaScript, JSON, Groovy, Java,
+In Squirrel U, you'll likely want to display HTML, JavaScript, JSON, Groovy, Java,
 SQL and shell script code.
 
 Utilize 3 backticks (`) to fence code blocks, specifying a language for formatting
-style. Cube U utilizes an 80 character margin, so please ensure that your code
+style. Squirrel U utilizes an 80 character margin, so please ensure that your code
 examples are well within this margin limit.
 
 Make your code readable by keeping { contained on the same line as a function or conditional. Keep your
 examples and comments short by simplifying the way you say things. Make your code
 inherently readable by using descriptive variable and function names and using
-accepted coding standards as described within Cube U.
+accepted coding standards as described within Squirrel U.
 
 HINT: Make sure that you start your fencing in the very first column!
 
