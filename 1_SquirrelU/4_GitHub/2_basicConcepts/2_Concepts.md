@@ -99,7 +99,7 @@ commit process. Assuming that you've setup 'silent add' in IntelliJ Preferences:
   * modified files will never be staged for commit; rather they will remain unstaged until commit  
 
 ## For Further Reading
-* See [GitHub Workflow Summary]({{ site.github.url }}/1_SquirrelU/4_GitHub/2_basicConcepts/2_gaigWorkflowSummary/) for more specific information about GitHub workflow and terminology
+* See [GitHub Workflow Summary]({{ site.github.url }}/1_SquirrelU/4_GitHub/2_basicConcepts/2_SquirrelWorksWorkflowSummary/) for more specific information about GitHub workflow and terminology
 * [Git Book - utilized heavily here!](https://git-scm.com/book/en/v2)
 * [Git Objects](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)
 * [Git SHA-1 Width](http://stackoverflow.com/questions/18134627/how-much-of-a-git-sha-is-generally-considered-necessary-to-uniquely-identify-a)
