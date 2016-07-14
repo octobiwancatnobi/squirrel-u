@@ -1,6 +1,6 @@
 ---
 layout:     page
-title:      "Navigating Cube U"
+title:      "Navigating Squirrel U"
 breadcrumb: "Navigation"
 status:     
 category:
@@ -11,34 +11,27 @@ tags:       Page, Summary, GitHub, Hierarchy, Directory, Search, Breadcrumb
 
 ## Introduction  
 
-Cube U was designed to help you explore new topics and quickly find the answers you need to get problems resolved quickly.
+Squirrel U was designed to help you explore new topics and quickly find the answers you need to get problems resolved quickly.
 
 This section walks you through the various areas of the site and different ways to get where you want to go.
 
 ## Prerequisites
 
-* The only thing you need before you get started is access to GitHub.  Requesting access is very easy and usually has a
-  very quick turnaround time  Just follow the steps under the **Request Access to GitHub (Our Source Code Repository)** section
-  of the **Required Access Requests for CUBE** page for instructions on gaining access.  Under the **Request Description** step, you'll
-  just want to put "Please grant this user access to the BUE organization in GitHub"
+* The only thing you need before you get started is access to GitHub.
 
 ## Featured Courses
 
-On the front page of Cube U, you will find a set of the more popular course
+On the front page of Squirrel U, you will find a set of the more popular course
 section links. Course offerings will as new sections are offered.
   
 You can always return to this page by clicking on the **Home** icon (looks like a house) in the breadcrumb
-trail.  
-
-![](images/courses.png){: .image} 
+trail.
 
 ## Course Summary Page
 
 After selecting a course, you will be taken to a summary page containing links to all of the content within that section.
 
 Anytime you navigate to a new section or page, the content will be highlighted in the hierarchy to the left.
-
-![](images/selectedCourse.png){: .image}
 
 ## Content Page
 
@@ -58,7 +51,7 @@ Let's take a closer look at some of the navigational and convenience features on
 
 In some websites, breadcrumb trails are used to provide a set of previously 
 visited links. Since a web browser provides adequate capability for doing this 
-already, Cube U is using breadcrumb trails for a different purpose.
+already, Squirrel U is using breadcrumb trails for a different purpose.
     
 At the top of the page, a breadcrumb trail provides a quick navigation up and 
 down the hierarchy. Clicking on any section to the left of the selected topic 
@@ -68,43 +61,16 @@ in the GitHub file hierarchy.
 
 ### Distraction Free Mode
 
-![](images/toggleDistractionFreeMode.png) This icon toggles display of the left and right hierarchy
-and search sections. 
-
-![](images/distractionFreeMode.png){: .image} 
+![](images/distractionFreeMode.png) This icon toggles display of the left and right hierarchy
+and search sections.
 
 ### Reading Time
 
-![](images/readingTime.png) Estimated reading time for a selected page of content.
+Estimated reading time for a selected page of content.
 
 An average non-technical reading rate is an average of 275 wpm. 
-Cube U calculates a rough reading time using a technical rate of 100 wpm. This
-time may be adjusted based on actual usage over time. 
-
-### Page Status
-
-![](images/.png) "Under Construction" pages are marked with a 
-cautionary symbol.
-
-This symbol is also displayed in the content hierarchy. This 
-symbol indicates that pages are not fully curated or some aspect of the page is 
-under development. Once fully curated, this status should be changed in the 
-page's Front Matter section to remove this icon.
-
-### Edit Mode
-
-![](images/editPage.png) An edit button is displayed on content pages *only when you are on your own fork of Cube U*. This
-Edit button takes you directly into GitHub to edit a content page.
-
-**Always make sure that you are editing on the gh-pages branch. GitHub pages does 
-not use the master branch.**
-
-* This button will *not* appear while running Jekyll from localhost as you are
-already editing within your IDE.
-
-* This button will *not* appear on the "official" Cube U (main BUE/CubeU) pages because you should not directly
-be making commits to this repository. To make changes to this content, you should be using Pull Requests. Use our **Quick Start**
-guide under the Cube U section to get started contributing to Cube U.
+Squirrel U calculates a rough reading time using a technical rate of 100 wpm. This
+time may be adjusted based on actual usage over time.
 
 ### Table of Contents
 
@@ -129,9 +95,9 @@ If there is succeeding content, a "next" nav button containing the content title
 
 ## Hierarchy/Left Hand Nav
 
-At the heart of Cube U is the content hierarchy, where all content has been
+At the heart of Squirrel U is the content hierarchy, where all content has been
 arranged in a (hopefully) logical taxonomy of material. This hierarchy reflects 
-the structure of directories in the Cube U repository.
+the structure of directories in the Squirrel U repository.
 
 This hierarchy appears in the left panel of your browser (if you're not in distraction-free mode).
 
@@ -145,10 +111,7 @@ and close all other sections which you are not viewing.
 When you select a topic from the breadcrumb trail, search or use an internal link,
 the topics's section will be opened and the topics will be highlighted.  
 
-![](images/highlightedHierarchy.png){: .image}  
-
-Any pages still "Under Construction" are displayed with cautionary symbol in the 
-content hierarchy. This symbol is also displayed on the page itself. 
+![](images/collapsedHierarchy.png){: .image}
 
 ## Search
 
