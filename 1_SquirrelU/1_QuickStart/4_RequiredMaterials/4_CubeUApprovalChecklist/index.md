@@ -2,7 +2,7 @@
 layout:         page
 title:          "Squirrel U Approval Checklist"
 breadcrumb:     "Approval Checklist"
-author:         Zippy
+author:         Zippy, Poppy, Whiskers
 status:
 category:
 contenttype:

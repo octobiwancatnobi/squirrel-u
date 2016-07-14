@@ -3,7 +3,6 @@ layout:         page
 title:          "Squirrel U Content Template"
 breadcrumb:     "Content Template"
 author:         Zippy
-author:         Zippy
 status:
 category:
 contenttype:

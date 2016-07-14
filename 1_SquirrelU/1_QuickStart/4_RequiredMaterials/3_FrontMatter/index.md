@@ -2,7 +2,7 @@
 layout:         page
 title:          "Front Matter Overview"
 breadcrumb:     "Front Matter Overview"
-author:         Zippy
+author:         Poppy, Zippy
 status:         
 category:
 contenttype:
