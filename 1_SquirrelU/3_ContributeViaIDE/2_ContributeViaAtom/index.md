@@ -6,7 +6,7 @@ author:         Kohl
 status:
 category:       
 contenttype:
-tags:           Local CubeU, Setup, Jekyll, IntelliJ, Atom, Github
+tags:           Local, Setup, Jekyll, IntelliJ, Atom, Github
 ---
 
 {% include toc.html %}
@@ -15,24 +15,24 @@ tags:           Local CubeU, Setup, Jekyll, IntelliJ, Atom, Github
 
 ![](images/atom.png)
 
-Cube U's Quick Start Guide outlines the easiest and quickest way to start contributing to Cube U for the most generic of users.
+Squirrel U's Quick Start Guide outlines the easiest and quickest way to start contributing to Squirrel U for the most generic of users.
 
-Users without an IntelliJ licenses may find that the Atom Editor is a fitting alternative for editing and promoting Cube U changes.
+Users without an IntelliJ licenses may find that the Atom Editor is a fitting alternative for editing and promoting Squirrel U changes.
 
 Atom was created by the GitHub team and is supported by an active community of
 plugin contributors. Atom does provide a nice development environment with
 powerful plugins, such as Markdown linters. We are planning to package an Atom
-setup for CubeU in PI8.
+setup for Squirrel.
 
 ## Prerequisites
-* Setting up to contribute via IntelliJ starts with forking a copy of Cube U from GitHub as outlined in the **Create (Fork)
-Your Copy of Cube U** page. Complete the steps as outlined on that page before continuing
+* Setting up to contribute via IntelliJ starts with forking a copy of Squirrel U from GitHub as outlined in the **Create (Fork)
+Your Copy of Squirrel U** page. Complete the steps as outlined on that page before continuing
 
 ## Steps
 
 
 ## For Further Reading
 
-* To learn more about Cube U "under the hood", visit the **Architecture** section of Cube where we explain some of the underlying
-technologies use to make Cube U work
+* To learn more about Squirrel U "under the hood", visit the **Architecture** section of Squirrel where we explain some of the underlying
+technologies use to make Squirrel U work
 

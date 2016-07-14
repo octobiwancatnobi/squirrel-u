@@ -22,9 +22,9 @@ shell.
 
 ## Prerequisites
 
-* After setting up your CUBE environment, you should have already updated the
+* After setting up your Squirrel environment, you should have already updated the
   IntelliJ terminal to utilize the bash shell. For instructions on how to do
-  this, consult the **Change IntelliJ Terminal** section of **Setting Up CUBE in IntelliJ** for assistance. 
+  this, consult the **Change IntelliJ Terminal** section of **Setting Up Squirrel in IntelliJ** for assistance. 
 
 ## Git Configuration
 
@@ -56,8 +56,8 @@ Use ```git config --global user.name <Name>``` and
 ```git config --global user.email <email>``` to set them if they haven't been set: 
 
 ```shell 
-$ git config --global user.name "Joe Cube"
-$ git config --global user.email jcube@gaig.com
+$ git config --global user.name "Joe Squirrel"
+$ git config --global user.email jSquirrel@squirrelworks.com
 ``` 
 
 ## Aliases
@@ -120,7 +120,7 @@ You will utilize the git command for everything you do.
 For more information, type ```git --help``` or ```man git```
 
 ### Create a Repository
-1. Go to your GitHub page:   https://github.gaig.com/yourUserName 
+1. Go to your GitHub page:   https://github.com/yourUserName 
 
 2. Go to the Repositories tab   
 
@@ -131,24 +131,24 @@ For more information, type ```git --help``` or ```man git```
 TODO: MM I think something is missing here...there isn't any command listed
 
 ### Clone
-Use ```git clone https://github.gaig.com/yourUserName/yourRepository``` to clone 
+Use ```git clone https://github.com/yourUserName/yourRepository``` to clone 
 a copy of the repository onto your local machine 
 
 ```shell 
-$ git clone https://github.gaig.com/mmosser/CubeU
+$ git clone https://github.com/zippyzsquirrel/squirrel-u
 ```
 
 ### Create 'origin' and 'upstream' Links
 
 To create an 'origin' link, use 
-```git remote add origin https://github.gaig.com/yourUserName/yourRepository``` 
+```git remote add origin https://github.com/yourUserName/yourRepository``` 
   
 To create an 'upstream' link, use 
-```git remote add upstream https://github.gaig.com/yourUserName/yourRepository``` 
+```git remote add upstream https://github.com/yourUserName/yourRepository``` 
 
 ```shell 
-$ git remote add origin https://github.gaig.com/jusr/CubeU
-$ git remote add upstream https://github.gaig.com/jusr/CubeU
+$ git remote add origin https://github.com/jusr/squirrel-u
+$ git remote add upstream https://github.com/jusr/squirrel-u
 ```  
 
 To verify remotes have been correctly created:
@@ -158,11 +158,9 @@ $ git remote show origin
 $ git remote show upstream
 ```  
 
-TODO: MM Add a screenshot  
-
 You should see your repository in the Fetch and Push URLs:  
-    Fetch URL: https://github.gaig.com/**yourUserName/yourRepository.git** 
-    Push URL:  https://github.gaig.com/**yourUserName/yourRepository.git** 
+    Fetch URL: https://github.com/**yourUserName/yourRepository.git** 
+    Push URL:  https://github.com/**yourUserName/yourRepository.git** 
 
 If you make a mistake, you can easily remove these remotes and redo the above 
 steps with:   
@@ -232,7 +230,6 @@ This is done via reset.
  
 There are several options for reset, which determine what happens to files after 
 they are reset. All reset modes reset the HEAD to <commit>. 
-TODO: MM I'm not clear on what this sentence means 
 
   * **soft** Leaves all your changed files as "Changes to be committed". Doesn't  
     touch the working directory tree or index file (staging area). See "Squashing  
@@ -263,8 +260,6 @@ git commit --amend
 Lets you combine staged changes with the previous commit instead of committing it   
 as an entirely new snapshot. 
 
-TODO: add info on   HEAD^ parent, HEAD^^ grandparent
-
 **Squashing Commits** 
 Squashing is the technique of taking prior multiple commits 
 and undoing them into your staging area so that when you push your code to your 
@@ -283,9 +278,7 @@ prior commits, which may be beneficial for isolating problems.
  $ git push {remote} 
 ```  
 
-Now verify that your changes have made it to github.gaig.com/**userName** fork.
-
-TODO: MM Add some step by step screen shots
+Now verify that your changes have made it to github.com/**userName** fork.
 
 ### Fetch, Merge, Pull
 It is important to stay current with any upstream changes from members of your 
@@ -358,10 +351,7 @@ $ git checkout master  // switch back to master branch
 $ git merge myfeature  // take commits into master branch  
 $ git status           // verify changes  
 ``` 
-
-TODO: MM Need better explanation of this example. --no-ff is coming out of the 
-blue here  
-
+ 
 ```shell 
 $ git merge featureA —no-ff   // no fast forward 
 $ git branch -D featureA 
@@ -400,8 +390,6 @@ For more options in working with Stash:  <http://git-scm.com/book/en/v1/Git-Tool
 
 ### Setting Up Remote Branches
 
-TODO: MM I don't understand this.  Can we add more detail?
-
 If you'd like to track a remote branch:
 
 ```shell 
@@ -410,8 +398,6 @@ $ git checkout -b abc --track upstream/master
 ```
 
 ### Ignore Whitespace in Merges
-
-TODO: MM Explain why this is useful
 
 ```shell 
 $ git merge -Xignore-space-change whitespace
@@ -436,8 +422,6 @@ $ git update-index --no-assume-unchanged config/database.yml
 By specifying another user who wasn't in the original pull request with an @user 
 mention, they will from that point be included in the pull request chain and any 
 notifications. They can unsubscribe from that Pull Request if they'd like to. 
-
-TODO: MM How does this play into the CLI commands? Is there an example we can add?
 
 ## For Further Reading
 

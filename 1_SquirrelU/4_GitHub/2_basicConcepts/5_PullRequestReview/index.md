@@ -37,7 +37,7 @@ your public GitHub repository.  See [Code, Commit and Push]({{ site.github.url }
 
 ## Viewing Pull Requests
 
-1. Navigate to GAIG's GitHub URL <https://github.gaig.com/CUBE> and login
+1. Navigate to GAIG's GitHub URL <https://github.gaig.com/Squirrel> and login
 
 2. Select the repository for which you would like to view Pull Requests
 
