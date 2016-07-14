@@ -67,16 +67,12 @@ contains a term that is also commonly referred to as an acronym, make sure
 you spell out the full name.  You can include the acronym in parenthesis
 after the full name (i.e. "Runtime Product Model (RPM)")
 
-![](images/FrontMatterTitle.png){: .image}
-
 ### Breadcrumb (Required)
 
 Include an abbreviated version of the page title in quotation
 marks.  If abbreviating the page title is not practical, simply include the
 page title again.  The breadcrumb title included here will be used in the Left Hand Nav.
 The object for the breadcrumb is to be as short as possible while still being meaningful.
-
-![](images/FrontMatterBreadcrumb.png){: .image}
 
 ### Author (Required)
 
@@ -92,8 +88,6 @@ users know that there may be incomplete or unverified information.  Pages should
 long. Content with an "" status
 will display an under construction symbol in the top, right corner of the
 page and in the Left Hand Nav to indicate to readers that the content has not been finalized.
-
-![](images/FrontMatter.png){: .image}
 
 ### Category (Not Used)
 
@@ -111,7 +105,7 @@ Matter tag.  Tags are an *extremely* important element that contribute directly 
 
 Pay careful attention to what text you use for tags. Common English words are automatically stripped / ignored. Pick keywords that sum
 up the article. Include any keywords that are particularly unique or may prove beneficial to the reader during search. Words
-such as "Squirrel" are too general. Acronyms, words or phrases such as RPM are perfect.
+such as "how to" are too general.
 
 If you are specifying an acronym, please also provide the expanded phrase represented by the acronym. Following these guidelines
 will help establish a high quality search index.

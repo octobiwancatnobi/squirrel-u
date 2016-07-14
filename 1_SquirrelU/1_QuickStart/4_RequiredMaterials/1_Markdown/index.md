@@ -91,15 +91,6 @@ you check the references option and any referenced links will be adjusted.
 
 Links are relative to the basepath. You do not need to include this basepath in your links!
 
-Basepath is automatically provided from the host environment:  
-
-1. GitHub Enterprise  ```https://github.gaig.com/pages/[ORGANIZATION]/SquirrelU```
-    * ORGANIZATION will be either:
-        * GitHub organization (such as BUE) or 
-        * your fork account
-
-2. Local Jekyll:   ```localhost:4000/```
-
 ### Images
 
 * Images must be in .png format (with lowercase "png" file extension)

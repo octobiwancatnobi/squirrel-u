@@ -1,8 +1,8 @@
 ---
 layout:         page
-title:          "Create (Fork) Your Copy of Squirrel U"
-breadcrumb:     "Create  Fork of Squirrel U"
-author:         Squeeks
+title:          "Create (Fork) Your Copy of Cube U"
+breadcrumb:     "Create  Fork of Cube U"
+author:         Mosser
 status:
 category:
 contenttype:
@@ -12,20 +12,20 @@ tags:           quick start, contribute, delete fork
 {% include toc.html %}
 
 ## Introduction
-Squirrel Works uses an online site called GitHub (a "source code repository") to house all of the code for the Squirrel project
-(as well as some others). Because Squirrel U was created so that we could hold our knowledge content to the same high standards as
+Great American uses an online site called GitHub (a "source code repository") to house all of the code for the CUBE project
+(as well as some others). Because Cube U was created so that we could hold our knowledge content to the same high standards as
 our source code, its content is *also* housed in GitHub.  *Your* knowledge is an **extremely** valuable asset, so we treat it as such!
 
-This section will show you how to copy (or "fork" in Git terms) the Squirrel U content to your own, personal repository in GitHub. This
-will allow you to make changes and test your content updates without affecting the "official" version of Squirrel U. Play around
+This section will show you how to copy (or "fork" in Git terms) the Cube U content to your own, personal repository in GitHub. This
+will allow you to make changes and test your content updates without affecting the "official" version of Cube U. Play around
 and have fun!
 
 ## Prerequisites
 
-* You'll need access to the "BUE" organization in GitHub.  Take a look at the Prerequisites on the **Start Contributing to Squirrel U**
+* You'll need access to the "BUE" organization in GitHub.  Take a look at the Prerequisites on the **Start Contributing to CUBE U**
 page for assistance with this.
-* **Do you already have a personal fork of Squirrel U?**  If so, you can probably skip this step, just make sure you follow the steps
-outlined in the "Keeping Your Fork Up-to-Date" section in the **Create or Update Squirrel U Content** page.  Another option (say if
+* **Do you already have a personal fork of Cube U?**  If so, you can probably skip this step, just make sure you follow the steps
+outlined in the "Keeping Your Fork Up-to-Date" section in the **Create or Update Cube U Content** page.  Another option (say if
 your fork is old and you haven't updated in a while) is to just delete your current fork and start over with the steps below. See "How to Delete a Fork"
 below for instructions on how to do this.
 
@@ -34,9 +34,9 @@ below for instructions on how to do this.
 1. Navigate to <https://github.gaig.com/login> and login with your ED credentials (this is the username and password you
 use to log into your computer)
 
-2. Once you're logged in, you can easily navigate to the Squirrel U repository by adding "/BUE/SquirrelU" to the end of your URL (<https://github.gaig.com/BUE/CubeU>).
+2. Once you're logged in, you can easily navigate to the Cube U repository by adding "/BUE/CubeU" to the end of your URL (<https://github.gaig.com/BUE/CubeU>).
 
-    Your page will look something like below.  Note that this is the "official" version of Squirrel U...the real deal.
+    Your page will look something like below.  Note that this is the "official" version of Cube U...the real deal.
 
     Before continuing, just make sure that your **Branch:** drop-down says **gh-pages**.  If it doesn't, change it accordingly.
 
@@ -50,7 +50,7 @@ use to log into your computer)
 
     ![](images/ChooseYourRepo.png){: .image}
 
-5. After the BUE Squirrel U repository is done forking to your personal repository, you should see a page like this...again,
+5. After the BUE Cube U repository is done forking to your personal repository, you should see a page like this...again,
 make sure your  **Branch:** drop-down is set to **gh-pages** before continuing.
 
     ![](../images/YourPersonalRepo.png){: .image}
@@ -78,32 +78,32 @@ your own personal fork on the gh-pages branch before continuing.
 
 ## FAQ
 
-**What do I do if I just want to test that I've done everything correctly? How can I see my rendered fork of Squirrel U before I start adding
+**What do I do if I just want to test that I've done everything correctly? How can I see my rendered fork of Cube U before I start adding
 my own content?**
 
 Before you can render the site on your fork, there's just one little quirk...you have to make a change (*any* change) to your fork's
 content so that the site is triggered to generate. This can literally just be a space somewhere if you don't yet feel comfortable making
 major changes.
 
-The next page, **Create or Update Squirrel U Content** includes instructions on how to update content, so you can just follow those steps
+The next page, **Create or Update Cube U Content** includes instructions on how to update content, so you can just follow those steps
 but perhaps just add a space in an inconspicuous place...preferably in an area where you intend to contribute content anyway.
 
-Then, to see what your rendered fork looks like, take a look at the "Test Your Rendered Content" section of the **Create or Update Squirrel U Content**
+Then, to see what your rendered fork looks like, take a look at the "Test Your Rendered Content" section of the **Create or Update Cube U Content**
 page.
 
-**What if there are changes to the "official" Squirrel U after I fork, but before I am done working on my content?**
+**What if there are changes to the "official" Cube U after I fork, but before I am done working on my content?**
 
-This is very likely to happen as there are more and more active contributors on Squirrel U. This is why it is **extremely** important
+This is very likely to happen as there are more and more active contributors on Cube U. This is why it is **extremely** important
 to regularly make sure that you are keeping your fork up-to-date with BUE: gh-pages. To get up-to-date with BUE: gh-pages, follow
-the steps outlined in the "How to Keep Your Fork Up to Date" section in the **Create or Update Squirrel U Content** page.
+the steps outlined in the "How to Keep Your Fork Up to Date" section in the **Create or Update Cube U Content** page.
 
-**How do I know if I have the most recent version of Squirrel U in my personal repository?**
+**How do I know if I have the most recent version of Cube U in my personal repository?**
 
 Make sure you are on your own fork, on the gh-pages branch, then look beneath the branch drop-down.  There, you can see where your branch stands
 in relation to BUE: gh-pages.  In the example below, the personal fork is "17 commits behind BUE: gh-pages".  This means that an
 update is definitely necessary.  You don't want to be "behind" BUE: gh-pages for very long and *certainly* not when making pushes
 or Pull Requests. To get up-to-date, follow the steps outlined in the "Keeping Your Fork Up-to-Date" section in the **Create or
-Update Squirrel U Content** page.
+Update Cube U Content** page.
 
 ![](images/HowCurrentYourForkIs.png){: .image}
 

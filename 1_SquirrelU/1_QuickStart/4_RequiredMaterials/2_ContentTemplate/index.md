@@ -16,7 +16,7 @@ completing your new page.
     layout:         page
     title:          "Squirrel U Content Template"
     breadcrumb:     "Content Template"
-    author:         Mosser
+    author:         Zippy
     status:
     category:
     contenttype:
