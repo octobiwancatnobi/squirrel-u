@@ -26,7 +26,7 @@ This section covers how to keep your cloned repository up-to-date with the BASE 
 
 ## Prerequisites
 
-*  You should first have your CUBE environment setup in IntelliJ.  See [Setup CUBE Projects from Git]({{ site.github.url }}3_Development/1_Setup/1_Cube/3_environmentSetup/1_setupProjects) for assistance.
+*  You should first have your Squirrel environment setup in IntelliJ.  See [Setup Squirrel Projects from Git]({{ site.github.url }}3_Development/1_Setup/1_Squirrel/3_environmentSetup/1_setupProjects) for assistance.
 
 ## Fetch then Merge <span class="octicon octicon-git-merge" style="font-size: 20px"></span>
 
@@ -79,8 +79,8 @@ If you prefer one step, use Pull to bring down changes from upstream; this perfo
 It really depends on the degree of control which you want to exercise when consuming Upstream changes.  If you want to 
 selectively take in changes, definitely use Fetch and Merge.  
 
-However, given that we are consuming source AND cube content from many teams, it will likely be to your advantage 
-to consume these changes as a whole package to stay current.  Hence the preference for CUBE to utilize Pull.  
+However, given that we are consuming source AND Squirrel content from many teams, it will likely be to your advantage 
+to consume these changes as a whole package to stay current.  Hence the preference for Squirrel to utilize Pull.  
 
 ## IntelliJ's "Update Project" 
 There is an "Update Project" button in IntelliJ, which basically does a Pull and gives you the choice of merge vs rebase.

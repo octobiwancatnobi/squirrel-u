@@ -66,7 +66,7 @@ git remote -v
     
     To add the person's remote run the following command: git remote add [alias] [GitHub URL] 
     
-    Ex. git remote add jkohl2 https://github.gaig.com/jkohl2/cube-env.git
+    Ex. git remote add jkohl2 https://github.gaig.com/jkohl2/Squirrel-env.git
     	
     ![](images/collaborationInGit_05.png){: .image}
     
@@ -119,7 +119,7 @@ well
     ![](images/collaborationInGit_12.png){: .image}
 
 4. Creating a Pull Request is where this differs from your main workflow, you want to 
-create a Pull Request to the other person's repo instead of the CUBE project
+create a Pull Request to the other person's repo instead of the Squirrel project
 
     ![](images/collaborationInGit_13.png){: .image}
     
@@ -136,7 +136,7 @@ create a Pull Request to the other person's repo instead of the CUBE project
  
 5. Once the Pull Request has been merged into the person's public repo, they can then 
 pull that code down to their local repo using Pull in IntelliJ just like they would 
-when updating from the main CUBE repo.
+when updating from the main Squirrel repo.
 
 ## For Further Reading
 

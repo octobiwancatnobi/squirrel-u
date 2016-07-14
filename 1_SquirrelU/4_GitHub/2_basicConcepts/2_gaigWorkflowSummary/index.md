@@ -23,7 +23,7 @@ This section provides a summary of the workflows chosen for GAIG by  Developer, 
 
 ![]({{ site.github.url }}/images/octocat.png){: .right}
 
-By now, you've viewed the Organizations and Repositories that comprise CUBE.  See [GitHub Repository Overview]({{ site.github.url }}/3_Development/1_Setup/3_projectSetup/2_gitHubRepositoryOverview/).
+By now, you've viewed the Organizations and Repositories that comprise Squirrel.  See [GitHub Repository Overview]({{ site.github.url }}/3_Development/1_Setup/3_projectSetup/2_gitHubRepositoryOverview/).
 
 Although GitHub can support direct commit of master branches in primary Repositories,
 GAIG is not using such a direct commit model for developers.
@@ -33,7 +33,7 @@ The following access roles are used across GAIG Repositories:
  * Developer - READ only (clone) privilege
  * Approver - READ and APPROVE privilege
 
-CUBE is using an approval-based commit model rather than direct commits.
+Squirrel is using an approval-based commit model rather than direct commits.
 Direct merging to master branches may only be done by an Approver (typically a Tech Lead).
 
 However if you have an Approval role and have to merge your own code,
@@ -62,7 +62,7 @@ your public, forked repository.
 Create a copy (B) of the BASE repository (A) by using a command called “Fork”.  In general, you will only do this the
 first time you are setting up your personal GitHub repository (B). A Fork is your PUBLIC copy of any Repository, which
 is stored directly on the GitHub server.  Any needed Repositories must be forked by each user.  The primary repositories
-will reflect how many users have forked their own public copies.  For example, you can see that the cube-ws-clients
+will reflect how many users have forked their own public copies.  For example, you can see that the Squirrel-ws-clients
 repository has been forked 48 times.
 
 ![](images/forkedNumber.png){: .image}
@@ -157,7 +157,7 @@ Pull Request; the BASE repository remains unchanged.
   * Tagging is done via Git tags, which can be applied via IntelliJ 
   * Tagging scheme is a three part scheme:  [see Isaac for detail]
     NOTE: we've discussed going to four part scheme ... when?
-  * This tagging has to be applied to the 5 supported cube-* repositories.  
+  * This tagging has to be applied to the 5 supported Squirrel-* repositories.  
   * Maven snapshots need to be created / managed.  TODO: detail from Isaac
   * How to build a release to send to Jenkins and up the stack
     something like: https://help.github.com/articles/creating-releases
