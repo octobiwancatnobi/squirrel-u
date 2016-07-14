@@ -20,7 +20,7 @@ at the GAIG GitHub website.
 
 ## Prerequisites
 
-* Before executing a Commit or Push activity, you should first have your CUBE environment setup in IntelliJ.  See [Setup CUBE Projects from Git]({{ site.github.url }}3_Development/1_Setup/1_Cube/3_environmentSetup/1_setupProjects) for assistance.  
+* Before executing a Commit or Push activity, you should first have your Squirrel environment setup in IntelliJ.  See [Setup Squirrel Projects from Git]({{ site.github.url }}3_Development/1_Setup/1_Squirrel/3_environmentSetup/1_setupProjects) for assistance.  
 
 ## Code (and Stage)  
 As you modify individual files, they are auto-saved in IntelliJ by default (unless you've disabled that capability).   

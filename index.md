@@ -13,8 +13,7 @@ tags:           Welcome, Squirrel University
 
 <br>
 
-<p style="font-family: Optima; font-size: 20px; text-align: center;">SQUIRRELS!<br>
-    Right from your own CUBE.
+<p style="font-family: Optima; font-size: 20px; text-align: center;">Welcome to Squirrel University! Here you will find everything you need to know about developing at Squirrel Works!<br>
 </p>
 
 <br>
@@ -32,8 +31,8 @@ tags:           Welcome, Squirrel University
 </div>
 
 <div class="col-sm-12 col-md-6 col-lg-4 trail" style="padding: 20px 20px 0px 5px;">
-	<a href="{{ site.github.url }}/1_SquirrelU/5_Nuts/1_Acorn/0_Summary/">
-		<img src="images/Acorn1.png" alt="Acorn Info"></a>
+	<a href="{{ site.github.url }}/1_SquirrelU/5_Nuts/0_Summary/">
+		<img src="images/Acorn3.png" alt="Acorn Info"></a>
 </div>
 
 </div>

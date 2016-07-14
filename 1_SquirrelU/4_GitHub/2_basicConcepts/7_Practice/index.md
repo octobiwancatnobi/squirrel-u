@@ -18,23 +18,23 @@ with.
 
 ## Prerequisites
 
-* GitHub access to CUBE, CUBEMIGRATION organizations  
-* Installed cube-env  
+* GitHub access to Squirrel, SquirrelMIGRATION organizations  
+* Installed Squirrel-env  
 
 ## INDIVIDUAL  
 
 ### Forking  
-1. Practice forking copies of CUBEMIGRATION repositories  
+1. Practice forking copies of SquirrelMIGRATION repositories  
 2. Remove forks  
-3. Recreate forks from CUBE (will need to create fresh clones)  
+3. Recreate forks from Squirrel (will need to create fresh clones)  
 
-### Building from cube-env  
-1. Create a new project from cube-env repository  
+### Building from Squirrel-env  
+1. Create a new project from Squirrel-env repository  
 2. Perform setup steps  
 3. Run tests  
 
 ### Local Clone Workflow  
-1. Practice changing files, watch impact on Working Directory, index, .git status  (cube-resources Readme.md is fine)  
+1. Practice changing files, watch impact on Working Directory, index, .git status  (Squirrel-resources Readme.md is fine)  
 2. Practice multiple commits to local clone only  
 3. Practice removing and resetting files.  Watch impact on Working Directory, index, .git status.   
 4. View Git's console in IntelliJ to better understand how IntelliJ is using Git commands.  
@@ -44,7 +44,7 @@ with.
 ### Public Fork Workflow  
 1. Practice pushing up prior commits (how do you know?  use Log)  
 2. Practice committing / pushing changes to your public fork in one step  
-3. Experiment making changes, commits and pushes across repositories (ie cube-resources, cube-impl, etc.)  
+3. Experiment making changes, commits and pushes across repositories (ie Squirrel-resources, Squirrel-impl, etc.)  
 4. View changes in Log  
 
 
