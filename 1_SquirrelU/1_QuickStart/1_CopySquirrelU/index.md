@@ -44,7 +44,7 @@ below for instructions on how to do this.
 4. After the Squirrel U repository is done forking to your personal repository, you will be taken to your forked repo...again,
 make sure your  **Branch:** drop-down is set to **gh-pages** before continuing.
 
-    ![](../images/forkedRepo.png){: .image}
+    ![](images/forkedRepo.png){: .image}
 
 **Now you're ready to start creating or updating content!**
 
@@ -79,7 +79,7 @@ update is not necessary because your fork has the same exact content as Zippy's.
 or Pull Requests. To get up-to-date, follow the steps outlined in the "Keeping Your Fork Up-to-Date" section in the **Create or
 Update Squirrel U Content** page.
 
-![](images/zippyRepo.png){: .image}
+![](images/forkedRepo.png){: .image}
 
 ## For Further Reading
 
