@@ -12,7 +12,7 @@
         var baseUrl = document.location.origin;
 
         if (baseUrl.indexOf("localhost") === -1 && baseUrl.indexOf("127.0.0.1") === -1) {
-           baseUrl += document.location.pathname.replace(/^(\/github.io\/\w+)\b.*$/,"$1")+"/squirrel-u";    //  will contain /pages/{BU or user}
+           baseUrl += document.location.pathname.replace(/^(\/github.io\/\w+)\b.*$/,"$1");    //  will contain /pages/{BU or user}
         }
 
         // Download the data from the JSON file we generated
