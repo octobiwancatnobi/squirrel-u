@@ -22,10 +22,19 @@ tags:           Welcome, Squirrel University
 <p style="font-family: Optima; font-size: 20px; text-align: center;">
 Check out 
 <a href="{{ site.github.url }}/images/TransformingTribalKnowledge.pdf">Zippy's Story</a>
-as presented at CodeStock 2016 in Knoxville, TN!
+ presented CodeStock 2016 in Knoxville, TN!
 <br>
 </p>
 
+<p style="font-family: Optima; font-size: 20px; text-align: center;">
+Check out 
+<a href="{{ site.github.url }}/images/SquirrelUQuickCard.pdf">Squirrel U QuickCard</a>
+for a quick reference!
+<br>
+<br>
+Collaboration welcome!   
+<br>Please report errata or bugs as issues in the repository. 
+</p>
 
 <div class="row">
 
