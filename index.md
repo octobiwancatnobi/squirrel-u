@@ -32,8 +32,8 @@ Check out
 for a quick reference!
 <br>
 <br>
-Collaboration welcome!   
-<br>Please report errata or bugs as issues in the repository. 
+Come Join our squirrelly adventure!  
+<br>If you have ideas, errata or bugs you'd like to let us know about, please create an issue in the repository. 
 </p>
 
 <div class="row">
