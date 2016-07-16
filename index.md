@@ -4,6 +4,7 @@ title:          ""
 breadcrumb:     "Welcome"
 tags:           Welcome, Squirrel University
 ---
+
 <div class="container.fluid">
     <div class="row">
     <div class="col-md-12" style="padding: 10px 0px 5px 0px;">
@@ -17,6 +18,14 @@ tags:           Welcome, Squirrel University
 </p>
 
 <br>
+
+<p style="font-family: Optima; font-size: 20px; text-align: center;">
+Check out 
+<a href="{{ site.github.url }}/images/TransformingTribalKnowledge.pdf">Zippy's Story</a>
+as presented at CodeStock 2016 in Knoxville, TN!
+<br>
+</p>
+
 
 <div class="row">
 
