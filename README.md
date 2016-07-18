@@ -54,19 +54,20 @@ This package comes with Setup, Framework and Sample Content:
 
 Once you've got the hang of things, you may want to create and maintain content from your IDE and serve it locally for testing.  We provide a setup for **IntelliJ's IDEA**; feel free to adapt for your IDE (and contribute it if you are inclined to do so).  
 
-### Prerequisites
+###IntelliJ
+#### Prerequisites
 
 * IntelliJ (Ultimate or Community Edition)
 * IntelliJ Plugins 
-        * **Required**
-        * BashSupport
-        * **Suggested**
-        * VCS watch
-        * Markdown
-        * Markdown Support
-        * [Markdown Navigator](http://vladsch.com/product/markdown-navigator)
+    - **Required**
+        - BashSupport
+    - **Suggested**
+        - VCS watch
+        - Markdown
+        - Markdown Support
+        - [Markdown Navigator](http://vladsch.com/product/markdown-navigator)
 
-### Setup  
+#### Setup  
 1. Configure IntelliJ VCS to use GitHub  (if not already done)
 
     * Open IntelliJ from any new or existing project
@@ -81,9 +82,48 @@ Once you've got the hang of things, you may want to create and maintain content 
    
      * Git Repository URL:  **https://github.com/yourFork/squirrel-u.git**
      * Parent Directory:    /Users/**userName**/IdeaProjects/   or   C:\Users\**userName**\IdeaProjects\
-     * Project Name:        **squirrel-u**  
+     * Project Name:        **squirrel-u**
 
-4. Run the appropriate Build Jekyll configuration ( **Build Jekyll - Mac** or **Build Jekyll – Windows** )
+### Visual Studio
+#### Prerequisites
+
+* Visual Studio 2010 or later
+* Visual Studio Plugins 
+    - **Required**
+        - Git Source Control Provider ([VS2010, VS2012, VS2013](https://visualstudiogallery.msdn.microsoft.com/63a7e40d-4d71-4fbb-a23b-d262124b8f4c), [VS2015](https://visualstudiogallery.msdn.microsoft.com/51e11ccc-6334-4873-912d-bf5025eb115d))
+    - **Suggested** 
+        - [Markdown Mode Extension](https://visualstudiogallery.msdn.microsoft.com/0855e23e-4c4c-4c82-8b39-24ab5c5a7f79)
+
+#### Setup  
+1. Configure Visual Studio Source Control to use GitHub  (if not already done)
+
+    * Open Visual Studio from any new or existing project
+    * Open Tools -> Options -> Source Control -> Plug-in Selection
+    * Select Microsoft Git Provider
+    * In Team Explorer Home, select Settings -> Git Settings
+    * Enter your user name, email address, and default repository location
+    
+2. Windows Users:  Install Git to your machine  
+
+3. Clone the forked repository to a local repository by doing the following
+    1. Click the **Connect to Team Projects** icon on the Team Explorer pane ![](images/ConnectToTeamProjects.PNG)
+    2. Expand the **Clone** drop down under **Local Git Repositories**
+    3. Fill in the URL for the forked repository.
+    4. Fill in the directory where you want the local repository placed. **THIS DIRECTORY SHOULD NOT EXIST YET**
+    5. Click **Clone** to create the local directory and clone the repository.
+
+4. Create a new Visual Studio project from Existing Code 
+   File -> New -> Project From Existing Code
+    - Select any project type you want, this does not effect the outcome, Click next.
+    - Specify the project details as follows:
+        - Where are the files?: Navigate to the location of the local repository
+        - Name: Name the project as you see fit.
+        - Output Type: Class Library
+    - Click **Finish**
+
+### Running Squirrel U Locally with Jekyll
+#### Build Squirrel U with Jekyll
+1. Run the appropriate Build Jekyll configuration ( **Build Jekyll - Mac** or **Build Jekyll – Windows** )
     * For Windows this expects that Git was installed to C:\Development\Git, if 
       this is not correct you will need to Edit the Run Configurations to change 
       this path. 
@@ -105,7 +145,7 @@ Once you've got the hang of things, you may want to create and maintain content 
         * When IntelliJ reloads run **Build Jekyll – Windows** again, this will 
           finish the Ruby setup 
 
-5. Verify installation worked by running the appropriate Run Jekyll configuration  
+2. Verify installation worked by running the appropriate Run Jekyll configuration  
     * This will run a different shell script and will start the jekyll server. 
       This can take **several minutes** to run the first time you run it, at the 
       end of it you should see a message in the terminal saying the following: 
@@ -118,9 +158,9 @@ Configuration file: C:/git/squirrel-u/_config.yml
   Server running... press ctrl-c to stop.
     ```
 
-6. You can now go to http://127.0.0.1:4000 and see your squirrel-u running locally! 
+3. You can now go to http://127.0.0.1:4000 and see your squirrel-u running locally! 
 
-7. Ensure that your origin's push remotes is setup correctly:
+4. Ensure that your origin's push remotes is setup correctly:
 
 ```shell
 git remote set-url --push origin https://yourUserName@github.com/yourUserName/squirrel-u.git
