@@ -97,6 +97,11 @@ site/
 *.VisualState.xml
 TestResult.xml
 
+#nuget
+.nuget/
+packages/
+packages.config
+
 *_i.c
 *_p.c
 *_i.h
