@@ -134,10 +134,10 @@ git remote set-url --push origin https://yourUserName@github.com/yourUserName/sq
 * Visual Studio 2010 or later
 * Visual Studio Plugins 
     - **Required**
+        - BashSupport
         - Git Source Control Provider ([VS2010, VS2012, VS2013](https://visualstudiogallery.msdn.microsoft.com/63a7e40d-4d71-4fbb-a23b-d262124b8f4c), [VS2015](https://visualstudiogallery.msdn.microsoft.com/51e11ccc-6334-4873-912d-bf5025eb115d))
     - **Suggested** 
         - [Markdown Mode Extension](https://visualstudiogallery.msdn.microsoft.com/0855e23e-4c4c-4c82-8b39-24ab5c5a7f79)
-* Jekyll is installed on the local machine. Follow [these](http://jekyll-windows.juthilo.com/) instructions if it is not.
 
 #### Setup  
 1. Configure Visual Studio Source Control to use GitHub  (if not already done)
@@ -169,11 +169,30 @@ git remote set-url --push origin https://yourUserName@github.com/yourUserName/sq
 #### Build squirrel-u with Jekyll
 1. Open a command window and navigate to the local squirrel-u repository.
 
-2. Enter the command ```jekyll build --destination <destinationdir>```, where ``<destinationdir>`` is the directory that you want the site to be built in.
+2. Enter the command ```C:\Development\Git\git-bash.exe setup/scripts/runJekyllGrunt.sh```, where ``<destinationdir>`` is the directory that you want the site to be built in.
+    * For Windows this expects that Git was installed to C:\Development\Git, if 
+      this is not correct you will need to Edit the Run Configurations to change 
+      this path. 
+        * If you do this the Build_Jekyll___Windows.xml will be added to your 
+          version control files as changed, just move this to another change list  
+          (right click and Select Move to Another Changelist) so that you do not 
+          check in changes to this file accidentally. 
+    * On Windows if you do not have Ruby installed and on your path it will be 
+      downloaded and the install will be started for you 
+        * When Prompted install Ruby to **C:\Development\Ruby**
+        * On this same screen **check the checkbox for 'Add Ruby Executables to 
+          your PATH'**, this is **required** and if not done the installation 
+          will not behave correctly in further sections. 
+        * Once this is completed the Ruby Devkit will be downloaded and 
+          installed, the path this gets downloaded to should default to 
+          **C:\Development\Ruby\dev_kit**, please verify this when prompted. 
+        * After the Devkit is installed you will need to **close the open 
+          terminal window and restart IntelliJ** 
+        * When IntelliJ reloads run **Build Jekyll - Windows** again, this will 
+          finish the Ruby setup 
 
-3. Navigate to the ``<destinationdir>``
-
-4. Start the jekyll server by entering the command ```jekyll serve``` you should see a message in the terminal saying something similar to the following:
+4. This can take **several minutes** to run the first time you run it, at the 
+      end of it you should see a message in the terminal saying the following:
     ```
     done in 67.513 seconds.
     Auto-regeneration: enabled for 'C:/git/squirrel-u'
