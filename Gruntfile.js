@@ -3,10 +3,13 @@ module.exports = function (grunt) {
     grunt.initConfig({
         shell: {
             jekyllBuild: {
-                command: 'jekyll build --destination site'
+                command: 'bundle exec jekyll build --destination _site --incremental --profile'
             },
-            jekyllServe: {
-                command: 'cd site && jekyll serve'
+            jekyllStart: {
+                command: '"C:\\Program Files\\Git\\git-bash.exe" setup/scripts/runJekyllGrunt.sh'
+            },
+            jekyllUpdate: {
+                command: 'bundle update'
             }
         },
         watch: {
@@ -25,10 +28,9 @@ module.exports = function (grunt) {
                 'scss/**/*.*',
                 'index.md'
             ],
-            tasks: ['shell:jekyllBuild','shell:jekyllServe'],
+            tasks: ['shell:jekyllBuild'],
             options: {
-                interrupt: true,
-                atBegin: true
+                interrupt: true
             }
         }
     });
@@ -37,5 +39,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
 
     // Default task(s).
-    grunt.registerTask('default', ['watch']);
+    grunt.registerTask('default', ['shell:jekyllStart']);
+    grunt.registerTask('squirrelServe', ['shell:jekyllStart']);
+    grunt.registerTask('squirrelWatch', ['shell:jekyllUpdate','watch']);
 };
