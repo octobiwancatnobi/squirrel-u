@@ -16,18 +16,6 @@
             {% continue %}
         {% endif %}
 
-        {% if node.url contains '404.md' %}
-            {% continue %}
-        {% endif %}
-
-        {% if node.url contains '404.html' %}
-            {% continue %}
-        {% endif %}
-
-        {% if node.url contains '/css/main.css' %}
-            {% continue %}
-        {% endif %}
-
         {% if node.url contains 'search_data.json' %}
             {% continue %}
         {% endif %}
