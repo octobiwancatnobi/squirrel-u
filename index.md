@@ -22,7 +22,7 @@ tags:           Welcome, Squirrel University
 <p style="font-family: Optima; font-size: 20px; text-align: center;">
 Check out 
 <a href="{{ site.github.url }}/images/TransformingTribalKnowledge.pdf">Zippy's Story</a>
- presented CodeStock 2016 in Knoxville, TN!
+ presented @ CodeStock2016 in Knoxville, TN!
 <br>
 </p>
 
