@@ -12,23 +12,11 @@
     {% assign sorted = site.pages  | sort: "path"  %}
 
     {% for node in sorted %}
-        {% if node.url contains 'scss' %}
-            {% continue %}
-        {% endif %}
-
-        {% if node.url contains 'search_data.json' %}
-            {% continue %}
-        {% endif %}
-
-        {% if node.url contains 'index' %}
-            {% continue %}
-        {% endif %}
-
-        {% if node.url contains 'hierarchy-template.html' %}
-            {% continue %}
-        {% endif %}
-
-        {% if node.url contains 'code' %}
+        {% if node.url contains 'scss'             or
+              node.url contains 'search_data.json' or
+              node.url contains 'index'            or
+              node.url contains 'code'             or
+              node.url contains 'hierarchy-template.html' %}
             {% continue %}
         {% endif %}
 
