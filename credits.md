@@ -24,12 +24,14 @@ Here's a quick list of those products:
  * [Hierarchy: cookie.js by Mark Wilton-Jones](http://www.howtocreate.co.uk/jslibs/script-cookie)
  * [Search: lunr.js](http://lunrjs.com)
  
-Also this site was made possible through the efforts of:
+Also this site and its contents were made possible through the efforts of:
 
  * [Octobi Wan Catnobi](https://github.com/octobiwancatnobi)
  * [Zippy Z Squirrel](https://github.com/zippyzsquirrel)
  * [Dan Ben](https://github.com/dben1713)
  * [Maria Jeanette](https://github.com/mjeannet)
  * [Melissa Mosser](https://github.com/SassyBA)
- * Jim Fox
  * [Jim Kohl](https://github.com/jimkohl)
+ * Jim Fox
+ * Isaac Higgins
+ * Mike Lively
