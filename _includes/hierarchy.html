@@ -14,10 +14,6 @@
     {% for node in sorted %}
         {% if node.url contains '1_SquirrelU' %}
 
-            {% if node.url contains 'code'  %}
-                {% continue %}
-            {% endif %}
-
             {% assign parts = node.url  | split: '/' %}
             {% capture depth %}{{ parts.size | minus:1 }}{% endcapture %}
 
@@ -37,7 +33,9 @@
 
                 {% assign ancestors = ancestors | push: ancestor %}
 
-                <li><span class="glyphicon glyphicon-triangle-right Collapsable"> {{ ancestor }}</span>
+                <li><span class="glyphicon glyphicon-triangle-right Collapsable">
+                    {{ ancestor }}
+                     </span>
                     <ul style="list-style-type: none;" id="{{ ancestor }}">
             {% endif %}
 
