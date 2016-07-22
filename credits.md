@@ -23,6 +23,8 @@ Here's a quick list of those products:
  * [Hierarchy: listCollapse.js by Mark Wilton-Jones](http://www.howtocreate.co.uk/jslibs/script-listcollapse)
  * [Hierarchy: cookie.js by Mark Wilton-Jones](http://www.howtocreate.co.uk/jslibs/script-cookie)
  * [Search: lunr.js](http://lunrjs.com)
+ * [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+ * [Markdown Navigator Plugin](http://vladsch.com/product/markdown-navigator)
  
 Also this site and its contents were made possible through the efforts of:
 
