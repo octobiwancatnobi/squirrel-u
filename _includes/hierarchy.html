@@ -34,7 +34,18 @@
                 {% assign ancestors = ancestors | push: ancestor %}
 
                 <li><span class="glyphicon glyphicon-triangle-right Collapsable">
-                    {{ ancestor }}
+                    {{ ancestor |
+                        replace: '_', '' |
+                        replace: '1', '' |
+                        replace: '2', '' |
+                        replace: '3', '' |
+                        replace: '4', '' |
+                        replace: '5', '' |
+                        replace: '6', '' |
+                        replace: '7', '' |
+                        replace: '8', '' |
+                        replace: '9', ''
+                    }}
                      </span>
                     <ul style="list-style-type: none;" id="{{ ancestor }}">
             {% endif %}
