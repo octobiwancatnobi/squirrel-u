@@ -12,47 +12,46 @@
     {% assign sorted = site.pages  | sort: "path"  %}
 
     {% for node in sorted %}
-        {% if node.url contains 'scss'             or
-              node.url contains 'search_data.json' or
-              node.url contains 'index'            or
-              node.url contains 'code'             or
-              node.url contains 'credits'          or
-              node.url contains 'hierarchy-template.html' %}
-            {% continue %}
-        {% endif %}
+        {% if node.url contains '1_SquirrelU' %}
 
-        {% assign parts = node.url  | split: '/' %}
-        {% capture depth %}{{ parts.size | minus:1 }}{% endcapture %}
-
-        {% for part in parts limit:{{depth}}  %}
-            {% if forloop.rindex == 1 %}
-                {% capture ancestor %}{{ part }}{% endcapture %}
+            {% if node.url contains 'code'  %}
+                {% continue %}
             {% endif %}
-        {% endfor %}
 
-        {% if ancestors contains ancestor %}
-        {% else %}
-            {% assign shiftLeft = ancestors.size | plus:1 | minus:depth %}
-            {% for i in (0..shiftLeft) %}
-                </ul></li>
-                {% assign ancestors = ancestors | pop %}
+            {% assign parts = node.url  | split: '/' %}
+            {% capture depth %}{{ parts.size | minus:1 }}{% endcapture %}
+
+            {% for part in parts limit:{{depth}}  %}
+                {% if forloop.rindex == 1 %}
+                    {% capture ancestor %}{{ part }}{% endcapture %}
+                {% endif %}
             {% endfor %}
 
-            {% assign ancestors = ancestors | push: ancestor %}
+            {% if ancestors contains ancestor %}
+            {% else %}
+                {% assign shiftLeft = ancestors.size | plus:1 | minus:depth %}
+                {% for i in (0..shiftLeft) %}
+                    </ul></li>
+                    {% assign ancestors = ancestors | pop %}
+                {% endfor %}
 
-            <li><span class="glyphicon glyphicon-triangle-right Collapsable"> {{ ancestor }}</span>
-                <ul style="list-style-type: none;" id="{{ ancestor }}">
+                {% assign ancestors = ancestors | push: ancestor %}
+
+                <li><span class="glyphicon glyphicon-triangle-right Collapsable"> {{ ancestor }}</span>
+                    <ul style="list-style-type: none;" id="{{ ancestor }}">
+            {% endif %}
+
+            {% assign construction = "" %}
+
+            {% if node.status == 'underConstruction' %}
+                {% assign construction = "glyphicon glyphicon-alert underConstruction" %}
+            {% endif %}
+
+            <li style="list-style-type: disc;">
+                <span><a href="{{ site.github.url }}{{ node.url }}">
+                    <span class="{{construction}}"></span> {{ node.breadcrumb }}</a></span>
+
         {% endif %}
-
-        {% assign construction = "" %}
-
-        {% if node.status == 'underConstruction' %}
-            {% assign construction = "glyphicon glyphicon-alert underConstruction" %}
-        {% endif %}
-
-        <li style="list-style-type: disc;">
-            <span><a href="{{ site.github.url }}{{ node.url }}">
-                <span class="{{construction}}"></span> {{ node.breadcrumb }}</a></span>
     {% endfor %}
 {% endif %}
 
