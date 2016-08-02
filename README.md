@@ -131,7 +131,7 @@ A big thanks to the following folks who've helped shape the ideas and content th
 
 * Jim Fox
 * Melissa Mosser
-* Maria Jeannette
+* Maria Jeannet
 * Dan Ben
 * Isaac Higgins
 * Michael Lively
