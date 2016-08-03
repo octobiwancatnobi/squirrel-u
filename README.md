@@ -10,7 +10,7 @@ squirrel-u is a starter kit for growing your own learning tree within your compa
 
 ## Why squirrel-u?
 
-Acorns feed Squirrels but if buried and forgotten, Acorns become Oak trees, which beget more Acorns.
+Acorns feed Squirrels, can be buried (and forgotten) or planted to become Oak trees, which beget more Acorns.
 
 Developers and teams are hungry for knowledge.  Knowledge is formed around a few Acorns 
 and grows into diverse branches of expertise through study, practice and sharing with others.
