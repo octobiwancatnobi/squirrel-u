@@ -31,7 +31,7 @@ Also this site and its contents were made possible through the efforts of:
  * [Octobi Wan Catnobi](https://github.com/octobiwancatnobi)
  * [Zippy Z Squirrel](https://github.com/zippyzsquirrel)
  * [Dan Ben](https://github.com/dben1713)
- * [Maria Jeanette](https://github.com/mjeannet)
+ * [Maria Jeannet](https://github.com/mjeannet)
  * [Melissa Mosser](https://github.com/SassyBA)
  * [Jim Kohl](https://github.com/jimkohl)
  * Jim Fox
