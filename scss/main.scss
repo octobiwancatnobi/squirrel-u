@@ -1,6 +1,3 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
 
 @charset "utf-8";
 
@@ -37,8 +34,8 @@ $on-laptop:        800px;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+//@import
+//        "_base",
+//        "_layout",
+//        "_syntax-highlighting"
+//;
