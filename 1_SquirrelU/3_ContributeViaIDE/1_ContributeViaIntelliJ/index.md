@@ -131,18 +131,15 @@ This option gives you a simple Markdown editing editor with an HTML preview pane
  * Markdown Support 
  * Gfm (GitHub Flavored Markdown) 
 
-The Gfm plugin isn't mandatory but will enforce a GitHub Flavor when rendering:  
-![](images/downloadGfm.png){: .image}
-
 Enable these plugins:  
-![](images/enableGfm.png){: .image}
+![](images/selectingBasicMarkdownPlugin.png){: .image}
 
 Viewing Markdown provides a rendered tab view next to your source code tab:  
 ![](images/viewGfm.png){: .image}
 
-**MultiMarkdown**  
+**Markdown Navigator**  
 The second option is to download a more advanced, fee based plugin called 
-[MultiMarkdown](https://github.com/vsch/idea-multimarkdown/wiki/Enhanced-Features). 
+[Markdown Navigator](http://vladsch.com/product/markdown-navigator). 
 
 The plugin is available with full functionality for a trial period and then 
 reduces to a more limited set of features after the trial. Functionality 
@@ -152,14 +149,20 @@ is also actively maintained and the developer is extremely responsive to
 suggestions and bug reports. 
 
 Download Plugin:
-![](images/downloadMultiMarkdown.png){: .image}
+![](images/downloadMarkdownNavigator.png){: .image}
 
-Enable plugin, but make sure to disable the Markdown, Markdown Support and Gfm 
+Enable plugin, but make sure to disable Markdown, Markdown Support and Gfm 
 plugins:  
-![](images/enableMultiMarkdown.png){: .image}
+![](images/enableMarkdownNavigator.png){: .image}
 
 Here's how the viewer looks:  
 ![](images/viewMultiMarkdown.png){: .image}
+
+The plugin has a rich set of configuration options:  
+ 
+ ![](images/configuringMarkdownNavigator.png){: .image}
+ 
+For more detail checkout the [Markdown Navigator wiki](https://github.com/vsch/idea-multimarkdown/wiki).  
 
 ## For Further Reading
 
