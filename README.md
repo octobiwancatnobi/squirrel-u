@@ -169,7 +169,7 @@ git remote set-url --push origin https://yourUserName@github.com/yourUserName/sq
 #### Build squirrel-u with Jekyll
 1. Open a command window and navigate to the local squirrel-u repository.
 
-2. Enter the command ```C:\Development\Git\git-bash.exe setup/scripts/runJekyllGrunt.sh```, where ``<destinationdir>`` is the directory that you want the site to be built in.
+2. Enter the command ```C:\Development\Git\git-bash.exe solutiondir/setup/scripts/runJekyllGrunt.sh```, where ``<solutiondir>`` is the directory where your squirrel-u fork resides.
     * For Windows this expects that Git was installed to C:\Development\Git, if 
       this is not correct you will need to Edit the Run Configurations to change 
       this path. 
@@ -209,6 +209,15 @@ git remote set-url --push origin https://yourUserName@github.com/yourUserName/sq
 git remote set-url --push origin https://yourUserName@github.com/yourUserName/squirrel-u.git
     ```
  
+## Running squirel-u on IIS instead of GitHub Pages
+1. Install Node.js and Grunt.js on the IIS server where you want to serve the squirrel-u website.
+2. Install Jekyll on the IIS server where you want to serve the squirrel-u website by following the directions [here](https://jekyllrb.com/docs/windows/).
+3. Set up a static website on your IIS server by following the directions on [TechNet](https://technet.microsoft.com/en-us/library/hh831515(v=ws.11).aspx]).
+4. Configure an automated, or manual, deployment process that will publish the squirrel-u files to a directory of your choice on you IIS server.
+5. Edit the Gruntfile.js file in your squirrel-u solution so that the text "_site", in the shell:jekyllBuild task is replaced with the path to the root directory of the static website you set up.
+6. Create a windows task that runs on startup to run the command "path-to-squirrel-u-files/grunt squirrelWatch" where ``<path-to-squirrel-u-files>`` is the directory of the location where the squirrel-u files are published to your IIS server in step 2.
+7. Now any changes that are published to the website's folder on the IIS server will trigger a Jekyll build that pushes all the updated HTML files from the build to the root directory of your static website. After the build completes, navigating to the website via a browser will display the updated site.
+
 ## Contributors
 A big thanks to the following folks who've helped shape the ideas and content that went into this repository:  
 
