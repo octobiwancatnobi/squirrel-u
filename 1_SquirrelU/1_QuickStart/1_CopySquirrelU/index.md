@@ -21,8 +21,6 @@ This section will show you how to copy (or "fork" in Git terms) the Squirrel U c
 will allow you to make changes and test your content updates without affecting the "official" version of Squirrel U. Play around
 and have fun!
 
-TEST
-
 ## Prerequisites
 
 * **Do you already have a personal fork of Squirrel U?**  If so, you can probably skip this step, just make sure you follow the steps
