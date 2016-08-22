@@ -1,12 +1,13 @@
 ---
-layout:         page
-title:          "Create (Fork) Your Copy of Squirrel U"
-breadcrumb:     "Create  Fork of Squirrel U"
-author:         Zippy
-status:
-category:
-contenttype:
-tags:           quick start, contribute, delete fork
+layout: page
+title: Create (Fork) Your Copy of Squirrel U
+breadcrumb: Create  Fork of Squirrel U
+author: Zippy
+status: null
+category: null
+contenttype: null
+tags: 'quick start, contribute, delete fork'
+published: true
 ---
 
 {% include toc.html %}
@@ -19,6 +20,8 @@ our source code, its content is *also* housed in GitHub.  *Your* knowledge is an
 This section will show you how to copy (or "fork" in Git terms) the Squirrel U content to your own, personal repository in GitHub. This
 will allow you to make changes and test your content updates without affecting the "official" version of Squirrel U. Play around
 and have fun!
+
+TEST
 
 ## Prerequisites
 
@@ -84,4 +87,3 @@ Update Squirrel U Content** page.
 ## For Further Reading
 
 * None
-
