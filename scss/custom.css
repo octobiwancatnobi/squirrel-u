@@ -113,6 +113,47 @@
         color: white;
         background: none; }
 
+.logo {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  border-radius: 3px; }
+
+.left-side {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translate(0px, -50%); }
+  .left-side span {
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 250px;
+    transform: translate(0px, -50%); }
+
+.right-side {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translate(0px, -50%); }
+
+.actions {
+  width: 53px;
+  position: relative;
+  height: 30px; }
+  .actions > .optionsDropdown {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px; }
+  .actions > .resize {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25px;
+    height: 25px; }
+
 /* Search Section */
 body {
   padding-top: 50px; }
@@ -264,26 +305,27 @@ h1:target, h2:target, h3:target, h4:target, h5:target, h6:target {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  color: #1f4901;
-  background-color: #d8a648;
+  color: #d8a648;
+  background-color: #1f4901;
   border-color: white;
+  height: 25px;
+  width: 25px;
   position: fixed;
+  border: none;
   z-index: 1; }
   .btn-primary:hover {
-    background-color: #d8a648;
-    border-color: white;
-    color: #d8a648; }
+    background-color: #1f4901;
+    color: #5c9038; }
   .btn-primary:active {
-    background-color: #d8a648 !important;
-    color: #000; }
+    background-color: #1f4901 !important;
+    border: none; }
   .btn-primary:focus {
-    background-color: #d8a648;
-    border-color: white;
-    color: #1f4901; }
+    background-color: #1f4901;
+    color: #d8a648;
+    border: none; }
     .btn-primary:focus:hover {
-      background-color: #d8a648;
-      border-color: white;
-      color: #d8a648; }
+      background-color: #1f4901;
+      color: #5c9038; }
 
 /*Tables*/
 table {

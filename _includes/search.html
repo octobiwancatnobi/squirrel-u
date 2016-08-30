@@ -14,3 +14,10 @@
 </form>
 
 <ul id="search_results"></ul>
+
+<script>
+    $('#clear_search').click(function(){
+        $('#filter').val('');
+        $("#search_results").empty();
+    });
+</script>
