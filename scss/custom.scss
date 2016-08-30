@@ -401,8 +401,8 @@ h1, h2, h3, h4, h5, h6 {
   -moz-border-radius: 5px;
   border-radius: 5px;
 
-  color:             $resizebuttonColor;
-  background-color:  $resizebuttonBack;
+  color:             $buttonColor;
+  background-color:  $buttonBack;
 
   border-color:      $white;
   height: 25px;
@@ -414,22 +414,22 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
 
   &:hover{
-    background-color: $resizebuttonBack;
-    color:            $resizebuttonHover;
+    background-color: $buttonBack;
+    color:            $buttonHover;
   }
 
   &:active{
-    background-color: $resizebuttonBack !important;
+    background-color: $buttonBack !important;
     border: none;
   }
 
   &:focus{
-    background-color: $resizebuttonBack;
-    color:            $resizebuttonColor;
+    background-color: $buttonBack;
+    color:            $buttonColor;
     border: none;
 
     &:hover{
-      background-color: $resizebuttonBack;
+      background-color: $buttonBack;
       color:            $buttonHover;
     }
   }

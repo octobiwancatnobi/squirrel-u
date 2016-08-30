@@ -30,11 +30,19 @@ $buttonBack:     $summergold;
 $buttonColor:    $summerbrown;
 $buttonHover:    $summergreen;
 
-$resizebuttonBack:     $summerbrown;
-$resizebuttonColor:    $summergold;
-$resizebuttonHover:    $summergreen;
-
 $tableBack:      $black;
 $tableColor:     $white;
 $tableBorder:    $black;
 
+.optionsBtn {
+  background-color: $summerbrown;
+  color: $summertan;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+
+  &:hover, &.optionsBtn:focus {
+    color: $summertan;
+    border: none;
+  }
+}

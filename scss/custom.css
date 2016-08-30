@@ -1,6 +1,16 @@
 /* Old Color Palette */
 /* Summer Forest Color Palette */
 /* Semantic Colors */
+.optionsBtn {
+  background-color: #1f4901;
+  color: #f0f0dd;
+  font-size: 16px;
+  border: none;
+  cursor: pointer; }
+  .optionsBtn:hover, .optionsBtn.optionsBtn:focus {
+    color: #f0f0dd;
+    border: none; }
+
 /* Panels */
 #nav-sidebar-wrapper {
   z-index: 1000;
@@ -305,8 +315,8 @@ h1:target, h2:target, h3:target, h4:target, h5:target, h6:target {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  color: #d8a648;
-  background-color: #1f4901;
+  color: #1f4901;
+  background-color: #d8a648;
   border-color: white;
   height: 25px;
   width: 25px;
@@ -314,17 +324,17 @@ h1:target, h2:target, h3:target, h4:target, h5:target, h6:target {
   border: none;
   z-index: 1; }
   .btn-primary:hover {
-    background-color: #1f4901;
+    background-color: #d8a648;
     color: #5c9038; }
   .btn-primary:active {
-    background-color: #1f4901 !important;
+    background-color: #d8a648 !important;
     border: none; }
   .btn-primary:focus {
-    background-color: #1f4901;
-    color: #d8a648;
+    background-color: #d8a648;
+    color: #1f4901;
     border: none; }
     .btn-primary:focus:hover {
-      background-color: #1f4901;
+      background-color: #d8a648;
       color: #5c9038; }
 
 /*Tables*/
