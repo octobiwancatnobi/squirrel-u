@@ -32,7 +32,7 @@ tags:           Welcome, Squirrel University
 
     <p style="font-family: Optima; font-size: 20px; text-align: center;">
         Check out 
-        <a href="{{ site.github.url }}/images/SquirrelUQuickCard.pdf">Squirrel U QuickCard</a>
+        <a href="{{ site.github.url }}/QuickCard/SquirrelUQuickCard.pdf">Squirrel U QuickCard</a>
         for a quick reference.
         <br>
         <br>
