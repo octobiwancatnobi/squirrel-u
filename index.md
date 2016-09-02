@@ -24,18 +24,22 @@ tags:           Welcome, Squirrel University
     <br>
 
     <p style="font-family: Optima; font-size: 20px; text-align: center;">
-        Check out 
-        <a href="{{ site.github.url }}/images/TransformingTribalKnowledge.pdf">Zippy's Story</a>
-         presented @ CodeStock2016 in Knoxville, TN!
+            Start with  
+            <a href="{{ site.github.url }}/QuickCard/SquirrelUQuickCard.pdf">Squirrel U QuickCard</a>
+            for a quick reference.
+           <br> <br>
+       <br>
+        <a href="{{ site.github.url }}/images/TransformingTribalKnowledgeGHUniverse.pdf">More of Zippy's Story</a>
+         presented at <br> <img src="images/githubUniverse.png" width="200px" height="60px">  2016 in San Franciso, CA!
+        <br><br>
+       
+        <a href="{{ site.github.url }}/images/TransformingTribalKnowledgeCodeStock.pdf">Zippy's Story</a>
+         presented at <br><img src="images/codestockLogo.png" width="70px" height="70px"> 2016 in Knoxville, TN!
+        <br>
         <br>
     </p>
 
     <p style="font-family: Optima; font-size: 20px; text-align: center;">
-        Check out 
-        <a href="{{ site.github.url }}/QuickCard/SquirrelUQuickCard.pdf">Squirrel U QuickCard</a>
-        for a quick reference.
-        <br>
-        <br>
         Come Join our squirrelly adventure!  
         <br>
         Create an issue in the repository for any ideas, errata or bugs. 
