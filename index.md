@@ -29,8 +29,9 @@ tags:           Welcome, Squirrel University
             for a quick reference.
            <br> <br>
        <br>
-        <a href="{{ site.github.url }}/images/TransformingTribalKnowledgeGHUniverse.pdf">More of Zippy's Story</a>
-         presented at <br><a href="https://www.youtube.com/watch?v=fJpp0s_GN3s"><img src="images/githubUniverse.png" width="200px" height="60px"> 2016 in San Franciso, CA!</a>
+        <a href="{{ site.github.url }}/images/TransformingTribalKnowledgeGHUniverse.pdf">Slides</a> and 
+        <a href="https://www.youtube.com/watch?v=fJpp0s_GN3s">Video</a>
+         presented at 2016 <br><img src="images/githubUniverse.png" width="200px" height="60px"> in San Franciso, CA!
         <br><br>
        
         <a href="{{ site.github.url }}/images/TransformingTribalKnowledgeCodeStock.pdf">Zippy's Story</a>
