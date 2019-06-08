@@ -31,11 +31,11 @@ tags:           Welcome, Squirrel University
        <br>
         <a href="https://www.youtube.com/watch?v=fJpp0s_GN3s">Session</a> and 
         <a href="{{ site.github.url }}/images/TransformingTribalKnowledgeGHUniverse.pdf">Slides</a>  
-         presented at 2016 <br><img src="images/githubUniverse.png" width="200px" height="60px"> in San Franciso, CA!
+         presented at <br>2016 <img src="images/githubUniverse.png" width="200px" height="60px"> in San Franciso, CA!
         <br><br>
        
         <a href="{{ site.github.url }}/images/TransformingTribalKnowledgeCodeStock.pdf">Zippy's Story</a>
-         presented at <br><img src="images/codestockLogo.png" width="70px" height="70px"> 2016 in Knoxville, TN!
+         presented at <br>2016 <img src="images/codestockLogo.png" width="70px" height="70px"> in Knoxville, TN!
         <br>
         <br>
     </p>
