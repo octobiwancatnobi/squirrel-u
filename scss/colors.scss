@@ -1,0 +1,48 @@
+/* Old Color Palette */
+$deepskyblue: deepskyblue;
+$gold:        #EED202;
+$grey:        #999999;
+$lightgrey75: rgba(148, 159, 163, .75);
+$grey75:      rgba(77,96,103, .75);
+$black:       #000;
+$white20:     rgba(255,255,255,0.2);
+$white:       white;
+
+/* Summer Forest Color Palette */
+$summertan:   #f0f0dd;
+$summergold:  #d8a648;
+$summergreen: #5c9038;
+$summersky:   #19b2b2;
+$summerbrown: #1f4901;
+
+/* Semantic Colors */
+$headerBack:     $summersky;
+$headerColor:    $summerbrown;
+
+$panelBack:      $summerbrown;
+$panelColor:     $summertan;
+$panelHighlight: $summergold;
+
+$contentBack:    $summertan;
+$contentColor:   $summerbrown;
+
+$buttonBack:     $summergold;
+$buttonColor:    $summerbrown;
+$buttonHover:    $summergreen;
+
+$tableBack:      $black;
+$tableColor:     $white;
+$tableBorder:    $black;
+
+.optionsBtn {
+  background-color: $summerbrown;
+  color: $summertan;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+
+  &:hover, &.optionsBtn:focus {
+    color: $summertan;
+    border: none;
+  }
+}

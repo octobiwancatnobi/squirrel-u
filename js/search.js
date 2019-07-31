@@ -1,5 +1,5 @@
 (function() {
-    jQuery(function() {
+    jQuery(function(squirreluApp) {
         // Initalize lunr search fields. Fields with boost matches are more important.
         window.idx = lunr(function () {
             this.field('id');
@@ -12,7 +12,7 @@
         var baseUrl = document.location.origin;
 
         if (baseUrl.indexOf("localhost") === -1 && baseUrl.indexOf("127.0.0.1") === -1) {
-            baseUrl += document.location.pathname.replace(/^(\/pages\/\w+)\b.*$/,"$1")+"/CubeU";    //  will contain /pages/{BU or user}
+           baseUrl += document.location.pathname.replace(/^(\/github.io\/\w+)\b.*$/,"$1");    //  will contain /pages/{BU or user}
         }
 
         // Download the data from the JSON file we generated
@@ -50,11 +50,13 @@
         function display_search_results(results) {
             var $search_results = $("#search_results");
             $search_results.empty();
+
             window.data.then(function(loaded_data) {           // Wait for data to load
                 if (results.length) {
                     results.forEach(function(result) {
                         var item = loaded_data[result.ref];
                         var appendString = '<li><a class="search" href="' + baseUrl + item.url + '">' + item.title + '</a></li>';
+
                         $search_results.append(appendString);
                     });
                 } else {
