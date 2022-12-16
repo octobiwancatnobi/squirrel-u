@@ -89,7 +89,7 @@ else
     cp -rnv setup/idea-init/other/* .idea   #will not overwrite files
 
     # install jekyll, jemoji and jekyll-lunr-search gems
-    gem dependency -p http://squid.td.afg:3128/
+    gem dependency
 
     #cannot be installed on Windows
     gem install jekyll-lunr-js-search
@@ -104,11 +104,11 @@ bundle update
 # setup upstream remote; origin already set
 upExist=`git remote|grep upstream`
 if [ ! "$upExist" == "upstream" ]; then
-    git remote add upstream https://github.gaig.com/BUE/CubeU
+    git remote add upstream https://github.com/octobiwancatnobi/squirrel-u
     git fetch --all
     git branch -u upstream/gh-pages
     git remote set-url --push upstream no_push
-    echo "CUBE U upstream remote added"
+    echo "Squirrel U upstream remote added"
 else
-    echo "CUBE U upstream remote already exists ..."
+    echo "Squirrel U upstream remote already exists ..."
 fi
